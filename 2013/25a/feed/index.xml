@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comentarios en: Sobre el 25A y el intento de ocupar el Congreso	</title>
+	<atom:link href="/2013/25a/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013/25a/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Tue, 04 Jun 2013 10:38:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>
+		Por: pedro		</title>
+		<link>/2013/25a/#comment-14973</link>
+
+		<dc:creator><![CDATA[pedro]]></dc:creator>
+		<pubDate>Fri, 26 Apr 2013 18:59:29 +0000</pubDate>
+		<guid isPermaLink="false">/?p=4819#comment-14973</guid>
+
+					<description><![CDATA[Gracias.  Hacia tiempo que no leía un análisis de política de nivel, especialmente lo escrito por Sánchez.
+
+Todo me parece bastante racional, ahora hay que ver el tema económico.
+
+Un slaudo,
+Pedro]]></description>
+			<content:encoded><![CDATA[<p>Gracias.  Hacia tiempo que no leía un análisis de política de nivel, especialmente lo escrito por Sánchez.</p>
+<p>Todo me parece bastante racional, ahora hay que ver el tema económico.</p>
+<p>Un slaudo,<br />
+Pedro</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

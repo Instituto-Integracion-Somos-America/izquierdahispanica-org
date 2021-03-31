@@ -1,0 +1,4879 @@
+{
+  "_links": {
+    "up": [
+      {
+        "href": "http://izquierdahispanica.org/wp-json/"
+      }
+    ]
+  },
+  "namespace": "wp/v2",
+  "routes": {
+    "/wp/v2": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "required": false
+            },
+            "namespace": {
+              "default": "wp/v2",
+              "required": false
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/block-directory/search": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/block-directory/search"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "term": {
+              "description": "Limitar el resultado a bloques que coincidan con el término de búsqueda.",
+              "required": true,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/block-renderer/(?P<name>[a-z0-9-]+/[a-z0-9-]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "attributes": {
+              "default": [],
+              "description": "Atributos para el bloque",
+              "required": false,
+              "type": "object"
+            },
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "name": {
+              "description": "Nombre único registrado para el bloque.",
+              "required": false,
+              "type": "string"
+            },
+            "post_id": {
+              "description": "ID del contexto de la entrada.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET",
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/block-types": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/block-types"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "namespace": {
+              "description": "Espacio de nombres del bloque.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/block-types/(?P<namespace>[a-zA-Z0-9_-]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "namespace": {
+              "description": "Espacio de nombres del bloque.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/block-types/(?P<namespace>[a-zA-Z0-9_-]+)/(?P<name>[a-zA-Z0-9_-]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "name": {
+              "description": "Nombre del bloque",
+              "required": false,
+              "type": "string"
+            },
+            "namespace": {
+              "description": "Espacio de nombres del bloque",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/blocks": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/blocks"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "after": {
+              "description": "Limitar la respuesta a entradas publicadas después de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "before": {
+              "description": "Limitar la respuesta a entradas publicadas antes de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "desc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "date",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "author",
+                "date",
+                "id",
+                "include",
+                "modified",
+                "parent",
+                "relevance",
+                "slug",
+                "include_slugs",
+                "title"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Limitar el conjunto de resultados a las entradas con uno o más slugs específicos.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "status": {
+              "default": "publish",
+              "description": "Limitar el conjunto de resultados a las entradas asignadas a uno o más estados.",
+              "items": {
+                "enum": [
+                  "publish",
+                  "future",
+                  "draft",
+                  "pending",
+                  "private",
+                  "trash",
+                  "auto-draft",
+                  "inherit",
+                  "request-pending",
+                  "request-confirmed",
+                  "request-failed",
+                  "request-completed",
+                  "any"
+                ],
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/blocks/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "La contraseña para la entrada, si está protegida por contraseña.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Si se evita la papelera y se fuerza el borrado.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/blocks/(?P<id>[\\d]+)/autosaves": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/blocks/(?P<parent>[\\d]+)/autosaves/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "El ID del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/categories": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/categories"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "hide_empty": {
+              "default": false,
+              "description": "Si se ocultarán o no los términos asignados a cualquier entrada.",
+              "required": false,
+              "type": "boolean"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "order": {
+              "default": "asc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "name",
+              "description": "Ordenar la colección por atributo de término.",
+              "enum": [
+                "id",
+                "include",
+                "name",
+                "slug",
+                "include_slugs",
+                "term_group",
+                "description",
+                "count"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "Limitar el resultado a términos asignados a un superior específico.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "post": {
+              "description": "Limitar el resultado a términos asignados a una entrada específica.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Limitar el resultado a términos con uno o más slugs específicos.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "description": {
+              "description": "Descripción HTML del término.",
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "name": {
+              "description": "Título HTML del término.",
+              "required": true,
+              "type": "string"
+            },
+            "parent": {
+              "description": "Identificador del término superior.",
+              "required": false,
+              "type": "integer"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico del término único de este tipo.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/categories/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único del término.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "description": {
+              "description": "Descripción HTML del término.",
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único del término.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "name": {
+              "description": "Título HTML del término.",
+              "required": false,
+              "type": "string"
+            },
+            "parent": {
+              "description": "Identificador del término superior.",
+              "required": false,
+              "type": "integer"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico del término único de este tipo.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Es necesario que sea «true», ya que los términos no son compatibles con el envío a la papelera.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único del término.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/comments": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/comments"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "after": {
+              "description": "Limitar la respuesta a comentarios publicados después de una fecha dada compatible con ISO8601.",
+              "required": false,
+              "type": "string"
+            },
+            "author": {
+              "description": "Limitar el conjunto de resultados a comentarios asignados a identificadores de usuario específicos. Necesita autorización.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "author_email": {
+              "description": "Limitar el conjunto de resultados a aquellos con un correo electrónico de autor específico. Necesita autorización.",
+              "required": false,
+              "type": "string"
+            },
+            "author_exclude": {
+              "description": "Asegurar que el conjunto de resultados excluye los comentarios asignados a IDs de usuario específicos. Necesita autorización.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "before": {
+              "description": "Limitar la respuesta a comentarios publicados antes de una fecha dada compatible con ISO8601.",
+              "required": false,
+              "type": "string"
+            },
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "desc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "date_gmt",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "date",
+                "date_gmt",
+                "id",
+                "include",
+                "post",
+                "parent",
+                "type"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "default": [],
+              "description": "Limitar el resultado a comentarios con ID superiores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "parent_exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluya los IDs superiores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "password": {
+              "description": "La contraseña para la entrada, si está protegida por contraseña.",
+              "required": false,
+              "type": "string"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "post": {
+              "default": [],
+              "description": "Limitar el resultado a comentarios asignados a IDs de entrada específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "default": "approve",
+              "description": "Limitar el conjunto de resultados a los comentarios asignados a un estado específico. Necesita autorización.",
+              "required": false,
+              "type": "string"
+            },
+            "type": {
+              "default": "comment",
+              "description": "Limitar el conjunto de resultados a los comentarios asignados a un tipo específico. Necesita autorización.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del objeto del usuario, si el autor era un usuario.",
+              "required": false,
+              "type": "integer"
+            },
+            "author_email": {
+              "description": "Dirección de correo electrónico del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_ip": {
+              "description": "Dirección IP del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_name": {
+              "description": "Muestra el nombre del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_url": {
+              "description": "URL del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_user_agent": {
+              "description": "Agente de usuario para el autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": "string"
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "parent": {
+              "default": 0,
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "post": {
+              "default": 0,
+              "description": "El ID del objeto asociado a la publicación.",
+              "required": false,
+              "type": "integer"
+            },
+            "status": {
+              "description": "Estado del objeto.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/comments/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "La contraseña de la entrada superior del comentario (si la entrada está protegida por contraseña).",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del objeto del usuario, si el autor era un usuario.",
+              "required": false,
+              "type": "integer"
+            },
+            "author_email": {
+              "description": "Dirección de correo electrónico del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_ip": {
+              "description": "Dirección IP del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_name": {
+              "description": "Muestra el nombre del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_url": {
+              "description": "URL del autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "author_user_agent": {
+              "description": "Agente de usuario para el autor del objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": "string"
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "post": {
+              "description": "El ID del objeto asociado a la publicación.",
+              "required": false,
+              "type": "integer"
+            },
+            "status": {
+              "description": "Estado del objeto.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Si se evita la papelera y se fuerza el borrado.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "La contraseña de la entrada superior del comentario (si la entrada está protegida por contraseña).",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/media": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/media"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "after": {
+              "description": "Limitar la respuesta a entradas publicadas después de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "author": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a las publicaciones asignadas a autores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "author_exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye las publicaciones asignadas a autores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "before": {
+              "description": "Limitar la respuesta a entradas publicadas antes de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "media_type": {
+              "description": "Limitar el conjunto de resultados a adjuntos de un tipo de medio en particular.",
+              "enum": [
+                "image",
+                "video",
+                "text",
+                "application",
+                "audio"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "mime_type": {
+              "description": "Limitar el conjunto de resultados a adjuntos de un tipo MIME en particular.",
+              "required": false,
+              "type": "string"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "desc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "date",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "author",
+                "date",
+                "id",
+                "include",
+                "modified",
+                "parent",
+                "relevance",
+                "slug",
+                "include_slugs",
+                "title"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "default": [],
+              "description": "Limitar los resultados a los que tengan IDs superiores concretos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "parent_exclude": {
+              "default": [],
+              "description": "Limitar los resultados a todos los elementos excepto aquellos con un identificador padre específico.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Limitar el conjunto de resultados a las entradas con uno o más slugs específicos.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "status": {
+              "default": "inherit",
+              "description": "Limitar el conjunto de resultados a las entradas asignadas a uno o más estados.",
+              "items": {
+                "enum": [
+                  "inherit",
+                  "private",
+                  "trash"
+                ],
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "alt_text": {
+              "description": "Texto alternativo a mostrar cuando no se muestra el adjunto.",
+              "required": false,
+              "type": "string"
+            },
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "caption": {
+              "description": "Leyenda del adjunto.",
+              "required": false,
+              "type": "object"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "description": {
+              "description": "Descripción del adjunto",
+              "required": false,
+              "type": "object"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "post": {
+              "description": "El ID de las entradas a las que está asociado el adjunto.",
+              "required": false,
+              "type": "integer"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/media/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "alt_text": {
+              "description": "Texto alternativo a mostrar cuando no se muestra el adjunto.",
+              "required": false,
+              "type": "string"
+            },
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "caption": {
+              "description": "Leyenda del adjunto.",
+              "required": false,
+              "type": "object"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "description": {
+              "description": "Descripción del adjunto",
+              "required": false,
+              "type": "object"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "post": {
+              "description": "El ID de las entradas a las que está asociado el adjunto.",
+              "required": false,
+              "type": "integer"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Si se evita la papelera y se fuerza el borrado.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/media/(?P<id>[\\d]+)/edit": {
+      "endpoints": [
+        {
+          "args": {
+            "height": {
+              "description": "Como un porcentaje de la imagen, el alto al que recortar la imagen.",
+              "required": false,
+              "type": "number"
+            },
+            "rotation": {
+              "description": "La cantidad en grados para rotar la imagen en el sentido de las agujas del reloj.",
+              "required": false,
+              "type": "integer"
+            },
+            "src": {
+              "description": "URL al archivo de la imagen editada.",
+              "required": true,
+              "type": "string"
+            },
+            "width": {
+              "description": "Como un porcentaje de la imagen, el ancho al que recortar la imagen.",
+              "required": false,
+              "type": "number"
+            },
+            "x": {
+              "description": "Como un porcentaje de la imagen, la posición x desde la que iniciar el recorte.",
+              "required": false,
+              "type": "number"
+            },
+            "y": {
+              "description": "Como un porcentaje de la imagen, la posición y desde la que iniciar el recorte.",
+              "required": false,
+              "type": "number"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/media/(?P<id>[\\d]+)/post-process": {
+      "endpoints": [
+        {
+          "args": {
+            "action": {
+              "enum": [
+                "create-image-subsizes"
+              ],
+              "required": true,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/pages": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "after": {
+              "description": "Limitar la respuesta a entradas publicadas después de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "author": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a las publicaciones asignadas a autores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "author_exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye las publicaciones asignadas a autores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "before": {
+              "description": "Limitar la respuesta a entradas publicadas antes de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "menu_order": {
+              "description": "Limitar los resultados a entradas con un valor específico `menu_order`.",
+              "required": false,
+              "type": "integer"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "desc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "date",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "author",
+                "date",
+                "id",
+                "include",
+                "modified",
+                "parent",
+                "relevance",
+                "slug",
+                "include_slugs",
+                "title",
+                "menu_order"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "default": [],
+              "description": "Limitar los resultados a los que tengan IDs superiores concretos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "parent_exclude": {
+              "default": [],
+              "description": "Limitar los resultados a todos los elementos excepto aquellos con un identificador padre específico.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Limitar el conjunto de resultados a las entradas con uno o más slugs específicos.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "status": {
+              "default": "publish",
+              "description": "Limitar el conjunto de resultados a las entradas asignadas a uno o más estados.",
+              "items": {
+                "enum": [
+                  "publish",
+                  "future",
+                  "draft",
+                  "pending",
+                  "private",
+                  "trash",
+                  "auto-draft",
+                  "inherit",
+                  "request-pending",
+                  "request-confirmed",
+                  "request-failed",
+                  "request-completed",
+                  "any"
+                ],
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "excerpt": {
+              "description": "El extracto del objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "featured_media": {
+              "description": "El ID de la imagen destacada para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "menu_order": {
+              "description": "El orden del objeto en relación con otro objeto de su tipo.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/pages/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "La contraseña para la entrada, si está protegida por contraseña.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "excerpt": {
+              "description": "El extracto del objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "featured_media": {
+              "description": "El ID de la imagen destacada para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "menu_order": {
+              "description": "El orden del objeto en relación con otro objeto de su tipo.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Si se evita la papelera y se fuerza el borrado.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/pages/(?P<id>[\\d]+)/autosaves": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "excerpt": {
+              "description": "El extracto del objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "featured_media": {
+              "description": "El ID de la imagen destacada para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "menu_order": {
+              "description": "El orden del objeto en relación con otro objeto de su tipo.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/pages/(?P<parent>[\\d]+)/autosaves/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "El ID del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/pages/(?P<parent>[\\d]+)/revisions": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "desc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "date",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "date",
+                "id",
+                "include",
+                "relevance",
+                "slug",
+                "include_slugs",
+                "title"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/pages/(?P<parent>[\\d]+)/revisions/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Es necesario que sea «true», ya que las revisiones no son compatibles con el envío a la papelera.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/plugins": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/plugins"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Limita los resultados a plugins con el estado dado.",
+              "items": {
+                "enum": [
+                  "inactive",
+                  "active"
+                ],
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "slug": {
+              "description": "Slug del plugin en el directorio WordPress.org.",
+              "required": true,
+              "type": "string"
+            },
+            "status": {
+              "default": "inactive",
+              "description": "Estado de activación del plugin.",
+              "enum": [
+                "inactive",
+                "active"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/plugins/(?P<plugin>[^.\\/]+(?:\\/[^.\\/]+)?)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "plugin": {
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "plugin": {
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Estado de activación del plugin.",
+              "enum": [
+                "inactive",
+                "active"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "plugin": {
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/posts": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/posts"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "after": {
+              "description": "Limitar la respuesta a entradas publicadas después de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "author": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a las publicaciones asignadas a autores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "author_exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye las publicaciones asignadas a autores específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "before": {
+              "description": "Limitar la respuesta a entradas publicadas antes de una fecha dada compatible con ISO9601.",
+              "required": false,
+              "type": "string"
+            },
+            "categories": {
+              "default": [],
+              "description": "Limitar los resultados a todos los elementos que tengan el término especificado asignado en la taxonomía categories.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "categories_exclude": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a todos los elementos excepto a aquellos que tienen el término especificado asignado en la taxonomía categories.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "desc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "date",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "author",
+                "date",
+                "id",
+                "include",
+                "modified",
+                "parent",
+                "relevance",
+                "slug",
+                "include_slugs",
+                "title"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Limitar el conjunto de resultados a las entradas con uno o más slugs específicos.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "status": {
+              "default": "publish",
+              "description": "Limitar el conjunto de resultados a las entradas asignadas a uno o más estados.",
+              "items": {
+                "enum": [
+                  "publish",
+                  "future",
+                  "draft",
+                  "pending",
+                  "private",
+                  "trash",
+                  "auto-draft",
+                  "inherit",
+                  "request-pending",
+                  "request-confirmed",
+                  "request-failed",
+                  "request-completed",
+                  "any"
+                ],
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "sticky": {
+              "description": "Limitar el conjunto de resultados a elementos que sean fijos.",
+              "required": false,
+              "type": "boolean"
+            },
+            "tags": {
+              "default": [],
+              "description": "Limitar los resultados a todos los elementos que tengan el término especificado asignado en la taxonomía tags.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "tags_exclude": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a todos los elementos excepto a aquellos que tienen el término especificado asignado en la taxonomía tags.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "tax_relation": {
+              "description": "Limita el conjunto de resultados en base a la relación entre múltiples taxonomías.",
+              "enum": [
+                "AND",
+                "OR"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "categories": {
+              "description": "Los términos asignados al objeto en la taxonomía category.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "excerpt": {
+              "description": "El extracto del objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "featured_media": {
+              "description": "El ID de la imagen destacada para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "format": {
+              "description": "El formato del objeto.",
+              "enum": [
+                "standard",
+                "aside",
+                "chat",
+                "gallery",
+                "link",
+                "image",
+                "quote",
+                "status",
+                "video",
+                "audio"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "sticky": {
+              "description": "Si se debe tratar el objeto como fijo o no.",
+              "required": false,
+              "type": "boolean"
+            },
+            "tags": {
+              "description": "Los términos asignados al objeto en la taxonomía post_tag.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/posts/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "La contraseña para la entrada, si está protegida por contraseña.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "categories": {
+              "description": "Los términos asignados al objeto en la taxonomía category.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "excerpt": {
+              "description": "El extracto del objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "featured_media": {
+              "description": "El ID de la imagen destacada para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "format": {
+              "description": "El formato del objeto.",
+              "enum": [
+                "standard",
+                "aside",
+                "chat",
+                "gallery",
+                "link",
+                "image",
+                "quote",
+                "status",
+                "video",
+                "audio"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "sticky": {
+              "description": "Si se debe tratar el objeto como fijo o no.",
+              "required": false,
+              "type": "boolean"
+            },
+            "tags": {
+              "description": "Los términos asignados al objeto en la taxonomía post_tag.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Si se evita la papelera y se fuerza el borrado.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/posts/(?P<id>[\\d]+)/autosaves": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "author": {
+              "description": "El ID del autor del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "categories": {
+              "description": "Los términos asignados al objeto en la taxonomía category.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "comment_status": {
+              "description": "Si los comentarios están abiertos en el objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "content": {
+              "description": "El contenido para el objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "date": {
+              "description": "La fecha de publicación del objeto, en la zona horaria del sitio.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "date_gmt": {
+              "description": "La fecha de publicación del objeto, como GMT.",
+              "required": false,
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "excerpt": {
+              "description": "El extracto del objeto.",
+              "required": false,
+              "type": "object"
+            },
+            "featured_media": {
+              "description": "El ID de la imagen destacada para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "format": {
+              "description": "El formato del objeto.",
+              "enum": [
+                "standard",
+                "aside",
+                "chat",
+                "gallery",
+                "link",
+                "image",
+                "quote",
+                "status",
+                "video",
+                "audio"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "password": {
+              "description": "Una contraseña para proteger el acceso al contenido y al extracto.",
+              "required": false,
+              "type": "string"
+            },
+            "ping_status": {
+              "description": "Se se puede hacer ping al objeto o no.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico para el objeto único para su tipo.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un nombre de estado para el objeto.",
+              "enum": [
+                "publish",
+                "future",
+                "draft",
+                "pending",
+                "private"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "sticky": {
+              "description": "Si se debe tratar el objeto como fijo o no.",
+              "required": false,
+              "type": "boolean"
+            },
+            "tags": {
+              "description": "Los términos asignados al objeto en la taxonomía post_tag.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "template": {
+              "description": "El archivo del tema a usar para mostrar el objeto.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "El título para el objeto.",
+              "required": false,
+              "type": "object"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/posts/(?P<parent>[\\d]+)/autosaves/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "El ID del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/posts/(?P<parent>[\\d]+)/revisions": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "desc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "date",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "date",
+                "id",
+                "include",
+                "relevance",
+                "slug",
+                "include_slugs",
+                "title"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/posts/(?P<parent>[\\d]+)/revisions/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Es necesario que sea «true», ya que las revisiones no son compatibles con el envío a la papelera.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único para el objeto.",
+              "required": false,
+              "type": "integer"
+            },
+            "parent": {
+              "description": "El ID del superior del objeto.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/search": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/search"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "subtype": {
+              "default": "any",
+              "description": "Limitar los resultados a elementos de uno o más subtipos de objetos.",
+              "items": {
+                "enum": [
+                  "post",
+                  "page",
+                  "any"
+                ],
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "type": {
+              "default": "post",
+              "description": "Limitar los resultados a elementos de un tipo de objeto.",
+              "enum": [
+                "post"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/settings": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/settings"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": [],
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "date_format": {
+              "description": "Formato fecha para todas las cadenas de fecha.",
+              "required": false,
+              "type": "string"
+            },
+            "default_category": {
+              "description": "Categoria de entrada por defecto",
+              "required": false,
+              "type": "integer"
+            },
+            "default_comment_status": {
+              "description": "Permitir a la gente enviar comentarios en las nuevas entradas.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "default_ping_status": {
+              "description": "Permite avisos de enlaces desde otros sitios (pingbacks y trackbacks) en los nuevos artículos.",
+              "enum": [
+                "open",
+                "closed"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "default_post_format": {
+              "description": "Formato de la entrada por defecto.",
+              "required": false,
+              "type": "string"
+            },
+            "description": {
+              "description": "Descripción corta del sitio.",
+              "required": false,
+              "type": "string"
+            },
+            "email": {
+              "description": "Esta dirección se utiliza para fines de administración, por ejemplo, avisos de nuevos usuarios.",
+              "required": false,
+              "type": "string"
+            },
+            "language": {
+              "description": "Código del idioma local de WordPress.",
+              "required": false,
+              "type": "string"
+            },
+            "posts_per_page": {
+              "description": "Páginas de blog mostradas como máximo.",
+              "required": false,
+              "type": "integer"
+            },
+            "start_of_week": {
+              "description": "El número de día en el que la semana debe comenzar.",
+              "required": false,
+              "type": "integer"
+            },
+            "time_format": {
+              "description": "Formato de hora para todas las cadenas de hora.",
+              "required": false,
+              "type": "string"
+            },
+            "timezone": {
+              "description": "Una ciudad en la misma zona horaria que tú.",
+              "required": false,
+              "type": "string"
+            },
+            "title": {
+              "description": "Título del sitio.",
+              "required": false,
+              "type": "string"
+            },
+            "url": {
+              "description": "URL del sitio.",
+              "required": false,
+              "type": "string"
+            },
+            "use_smilies": {
+              "description": "Convierte emoticonos como :-) y :-P en gráficos en la pantalla.",
+              "required": false,
+              "type": "boolean"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/statuses": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/statuses"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/statuses/(?P<status>[\\w-]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Un identificador alfanumérico del estado.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/tags": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/tags"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "hide_empty": {
+              "default": false,
+              "description": "Si se ocultarán o no los términos asignados a cualquier entrada.",
+              "required": false,
+              "type": "boolean"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "asc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "name",
+              "description": "Ordenar la colección por atributo de término.",
+              "enum": [
+                "id",
+                "include",
+                "name",
+                "slug",
+                "include_slugs",
+                "term_group",
+                "description",
+                "count"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "post": {
+              "description": "Limitar el resultado a términos asignados a una entrada específica.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Limitar el resultado a términos con uno o más slugs específicos.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "description": {
+              "description": "Descripción HTML del término.",
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "name": {
+              "description": "Título HTML del término.",
+              "required": true,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico del término único de este tipo.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/tags/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único del término.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "description": {
+              "description": "Descripción HTML del término.",
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único del término.",
+              "required": false,
+              "type": "integer"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "name": {
+              "description": "Título HTML del término.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico del término único de este tipo.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Es necesario que sea «true», ya que los términos no son compatibles con el envío a la papelera.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único del término.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/taxonomies": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/taxonomies"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "type": {
+              "description": "Limitar los resultados a taxonomías asociadas con un tipo de contenido específico.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/taxonomies/(?P<taxonomy>[\\w-]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "taxonomy": {
+              "description": "Un identificador alfanumérico de la taxonomía.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/themes": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/themes"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "status": {
+              "description": "Limitar el conjunto de resultados a los temas asignados a uno o más estados. ",
+              "items": {
+                "enum": [
+                  "active"
+                ],
+                "type": "string"
+              },
+              "required": true,
+              "type": "array"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/types": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/types"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/types/(?P<type>[\\w-]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "type": {
+              "description": "Un identificador alfanumérico del tipo de contenido.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        }
+      ],
+      "methods": [
+        "GET"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/users": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/users"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "exclude": {
+              "default": [],
+              "description": "Asegurar que el conjunto de resultados excluye IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "include": {
+              "default": [],
+              "description": "Limitar el conjunto de resultados a IDs específicos.",
+              "items": {
+                "type": "integer"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "offset": {
+              "description": "Desplazar el conjunto de resultados un número específico de elementos.",
+              "required": false,
+              "type": "integer"
+            },
+            "order": {
+              "default": "asc",
+              "description": "Orden de clasificación de atributos ascendente o descendente.",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "orderby": {
+              "default": "name",
+              "description": "Ordenar la colección por atributo de objeto.",
+              "enum": [
+                "id",
+                "include",
+                "name",
+                "registered_date",
+                "slug",
+                "include_slugs",
+                "email",
+                "url"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "page": {
+              "default": 1,
+              "description": "Página actual de la colección.",
+              "required": false,
+              "type": "integer"
+            },
+            "per_page": {
+              "default": 10,
+              "description": "Número máximo de elementos que se devolverán en el conjunto de resultados.",
+              "required": false,
+              "type": "integer"
+            },
+            "roles": {
+              "description": "Limitar el resultado a usuarios que se ajusten al menos a un perfil específico facilitado. Acepta listas en CSV o un solo perfil.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "search": {
+              "description": "Limitar los resultados a aquellos que coinciden con una cadena.",
+              "required": false,
+              "type": "string"
+            },
+            "slug": {
+              "description": "Limitar el resultado a usuarios con uno o más slugs específicos.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "who": {
+              "description": "Limitar el resultado a usuarios considerados autores.",
+              "enum": [
+                "authors"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "description": {
+              "description": "Descripción del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "email": {
+              "description": "La dirección de correo electrónico del usuario.",
+              "required": true,
+              "type": "string"
+            },
+            "first_name": {
+              "description": "Nombre del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "last_name": {
+              "description": "Apellidos del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "locale": {
+              "description": "Idioma local del usuario.",
+              "enum": [
+                "",
+                "en_US",
+                "es_ES"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "name": {
+              "description": "Muestra el nombre del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "nickname": {
+              "description": "Alias del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "password": {
+              "description": "Contraseña del usuario (no incluida).",
+              "required": true,
+              "type": "string"
+            },
+            "roles": {
+              "description": "Perfiles asignados al usuario.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "url": {
+              "description": "URL del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "username": {
+              "description": "Nombre de acceso del usuario.",
+              "required": true,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/users/(?P<id>[\\d]+)": {
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único del usuario.",
+              "required": false,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "description": {
+              "description": "Descripción del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "email": {
+              "description": "La dirección de correo electrónico del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "first_name": {
+              "description": "Nombre del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "id": {
+              "description": "Identificador único del usuario.",
+              "required": false,
+              "type": "integer"
+            },
+            "last_name": {
+              "description": "Apellidos del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "locale": {
+              "description": "Idioma local del usuario.",
+              "enum": [
+                "",
+                "en_US",
+                "es_ES"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "name": {
+              "description": "Muestra el nombre del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "nickname": {
+              "description": "Alias del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "password": {
+              "description": "Contraseña del usuario (no incluida).",
+              "required": false,
+              "type": "string"
+            },
+            "roles": {
+              "description": "Perfiles asignados al usuario.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "url": {
+              "description": "URL del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "username": {
+              "description": "Nombre de acceso del usuario.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Es necesario que sea «true», ya que los usuarios no son compatibles con el envío a la papelera.",
+              "required": false,
+              "type": "boolean"
+            },
+            "id": {
+              "description": "Identificador único del usuario.",
+              "required": false,
+              "type": "integer"
+            },
+            "reassign": {
+              "description": "Reasignando las entradas y los enlaces del usuario borrados a la ID de este usuario.",
+              "required": true,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    },
+    "/wp/v2/users/me": {
+      "_links": {
+        "self": [
+          {
+            "href": "http://izquierdahispanica.org/wp-json/wp/v2/users/me"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "args": {
+            "context": {
+              "default": "view",
+              "description": "Ámbito de aplicación de la solicitud; determina los campos presentes en la respuesta.",
+              "enum": [
+                "view",
+                "embed",
+                "edit"
+              ],
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "GET"
+          ]
+        },
+        {
+          "args": {
+            "description": {
+              "description": "Descripción del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "email": {
+              "description": "La dirección de correo electrónico del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "first_name": {
+              "description": "Nombre del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "last_name": {
+              "description": "Apellidos del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "locale": {
+              "description": "Idioma local del usuario.",
+              "enum": [
+                "",
+                "en_US",
+                "es_ES"
+              ],
+              "required": false,
+              "type": "string"
+            },
+            "meta": {
+              "description": "Campos meta.",
+              "required": false,
+              "type": "object"
+            },
+            "name": {
+              "description": "Muestra el nombre del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "nickname": {
+              "description": "Alias del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "password": {
+              "description": "Contraseña del usuario (no incluida).",
+              "required": false,
+              "type": "string"
+            },
+            "roles": {
+              "description": "Perfiles asignados al usuario.",
+              "items": {
+                "type": "string"
+              },
+              "required": false,
+              "type": "array"
+            },
+            "slug": {
+              "description": "Un identificador alfanumérico del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "url": {
+              "description": "URL del usuario.",
+              "required": false,
+              "type": "string"
+            },
+            "username": {
+              "description": "Nombre de acceso del usuario.",
+              "required": false,
+              "type": "string"
+            }
+          },
+          "methods": [
+            "POST",
+            "PUT",
+            "PATCH"
+          ]
+        },
+        {
+          "args": {
+            "force": {
+              "default": false,
+              "description": "Es necesario que sea «true», ya que los usuarios no son compatibles con el envío a la papelera.",
+              "required": false,
+              "type": "boolean"
+            },
+            "reassign": {
+              "description": "Reasignando las entradas y los enlaces del usuario borrados a la ID de este usuario.",
+              "required": true,
+              "type": "integer"
+            }
+          },
+          "methods": [
+            "DELETE"
+          ]
+        }
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "PATCH",
+        "DELETE"
+      ],
+      "namespace": "wp/v2"
+    }
+  }
+}

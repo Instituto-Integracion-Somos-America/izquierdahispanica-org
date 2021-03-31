@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Fútbol &#8211; Izquierda Hispánica</title>
+	<atom:link href="/tag/futbol/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Wed, 13 Jun 2012 16:34:15 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Fútbol, política, pitidos y abucheos</title>
+		<link>/2012/futbol-politica-pitos-y-abucheos/</link>
+					<comments>/2012/futbol-politica-pitos-y-abucheos/#comments</comments>
+		
+		<dc:creator><![CDATA[Julián Sánchez]]></dc:creator>
+		<pubDate>Sat, 26 May 2012 20:40:33 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Fútbol]]></category>
+		<guid isPermaLink="false">/?p=3033</guid>
+
+					<description><![CDATA[Como era de esperar, en el día de ayer en la final de la Copa de España de futbol, (Copa del Rey) se repitieron las bochornosas escenas que se habían producido  hace tres años con los mismos equipos y las mismas aficiones: F.C.Barcelona y Athletic Club de Bilbao. La sonora pitada al Himno y todo [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2012/futbol-politica-pitos-y-abucheos/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>FC Barcelona: ¿Por qué? Por política</title>
+		<link>/2011/fc-barcelona-politica/</link>
+					<comments>/2011/fc-barcelona-politica/#comments</comments>
+		
+		<dc:creator><![CDATA[Santiago Armesilla]]></dc:creator>
+		<pubDate>Thu, 28 Apr 2011 11:28:02 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Fútbol]]></category>
+		<category><![CDATA[Política]]></category>
+		<category><![CDATA[Separatismos]]></category>
+		<guid isPermaLink="false">/?p=538</guid>
+
+					<description><![CDATA[El fútbol es política. No cabe duda. Minimizar el fenómeno mundial del fútbol como algo meramente deportivo es no poder, o no querer ver, que el deporte, especialmente el deporte que mueve masas, que tiene un desarrollo colectivo dentro y fuera de su campo propio que moviliza a millones de personas, es política. El fútbol [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2011/fc-barcelona-politica/feed/</wfw:commentRss>
+			<slash:comments>45</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

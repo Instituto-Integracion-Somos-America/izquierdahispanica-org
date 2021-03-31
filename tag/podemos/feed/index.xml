@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Podemos &#8211; Izquierda Hispánica</title>
+	<atom:link href="/tag/podemos/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Mon, 30 Jun 2014 06:57:14 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Pablo Iglesias y ETA. La lección que las izquierdas no acaban de aprender.</title>
+		<link>/2014/pablo-eta/</link>
+					<comments>/2014/pablo-eta/#comments</comments>
+		
+		<dc:creator><![CDATA[José Tomás Escalante]]></dc:creator>
+		<pubDate>Mon, 30 Jun 2014 06:56:00 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Naciones hispánicas]]></category>
+		<category><![CDATA[Política]]></category>
+		<category><![CDATA[Podemos]]></category>
+		<category><![CDATA[Terrorismo]]></category>
+		<guid isPermaLink="false">/?p=5640</guid>
+
+					<description><![CDATA[Hoy publica El Mundo las conexiones de Pablo Iglesias con las asociaciones de defensa de presos etarras y los contactos de su pareja -de IU- también con estos grupos. Como siempre, las izquierdas no aprenden. Cada vez que las izquierdas con un proyecto nacional toman contacto con el mundo separatista, el resultado es el mismo: [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2014/pablo-eta/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>«Podemos» y el arte de escupir hacia arriba</title>
+		<link>/2014/podemos/</link>
+					<comments>/2014/podemos/#comments</comments>
+		
+		<dc:creator><![CDATA[Esquinas]]></dc:creator>
+		<pubDate>Mon, 16 Jun 2014 20:37:01 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Política]]></category>
+		<category><![CDATA[Estrategia]]></category>
+		<category><![CDATA[Podemos]]></category>
+		<guid isPermaLink="false">/?p=5605</guid>
+
+					<description><![CDATA[De «Podemos» se han dicho muchas cosas. A las izquierdas tradicionales y a algunos aprendices de filosofia iluminados por la luz de la crítica les repatea la inconsistencia ideológica. Escrutinan un tweet en el que creen vislumbrar desviaciones oportunistas pequeñoburguesas. Analizan sesudamente un párrafo de su programa en el que se demuestra que son pérfidos [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2014/podemos/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Anarquismo &#8211; Izquierda Hispánica</title>
+	<atom:link href="/tag/anarquismo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Mon, 25 Jun 2012 22:13:22 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Esperanza Aguirre o las miserias del liberalismo</title>
+		<link>/2012/aguirre-miseria-liberalismo/</link>
+					<comments>/2012/aguirre-miseria-liberalismo/#comments</comments>
+		
+		<dc:creator><![CDATA[javier]]></dc:creator>
+		<pubDate>Sat, 28 Jan 2012 00:25:37 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Naciones hispánicas]]></category>
+		<category><![CDATA[Anarquismo]]></category>
+		<category><![CDATA[Liberalismo]]></category>
+		<category><![CDATA[Política]]></category>
+		<guid isPermaLink="false">/?p=2197</guid>
+
+					<description><![CDATA[Se glosan sus hazañas en medios como Libertad Digital o El Mundo o “tanques de pensamiento” como el Instituto Juan de Mariana. Esperanza Aguirre, la presidenta de la Comunidad Autónoma de Madrid, es sin duda reconocida por el liberalismo español (aclarar que los parecidos de los liberales de hoy en día con la izquierda liberal [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2012/aguirre-miseria-liberalismo/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cómo no hacer una Revolución</title>
+		<link>/2011/como-no-hacer-una-revolucion/</link>
+					<comments>/2011/como-no-hacer-una-revolucion/#comments</comments>
+		
+		<dc:creator><![CDATA[Esquinas]]></dc:creator>
+		<pubDate>Thu, 09 Jun 2011 22:06:51 +0000</pubDate>
+				<category><![CDATA[Naciones hispánicas]]></category>
+		<category><![CDATA[Anarquismo]]></category>
+		<category><![CDATA[Revolución]]></category>
+		<guid isPermaLink="false">/?p=893</guid>
+
+					<description><![CDATA[Recogemos aquí las cinco conclusiones en las que resumió Engels su trabajo sobre los bakuninistas españoles. Sus artículos aparecieron en Der Volksstrat, en 1873 y todavían no han perdido parte de su actualidad. Conclusiones: 1ª. En cuanto se enfrentaron con una situación revolucionaria seria, los bakuninistas se vieron obligados a echar por la borda todo [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2011/como-no-hacer-una-revolucion/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>acastro &#8211; Izquierda Hispánica</title>
+	<atom:link href="/author/acastro/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Mon, 10 Jun 2013 22:14:31 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Fernando Díaz Villanueva y Pablo Iglesias Turrión</title>
+		<link>/2013/villanueva-turrion/</link>
+					<comments>/2013/villanueva-turrion/#comments</comments>
+		
+		<dc:creator><![CDATA[acastro]]></dc:creator>
+		<pubDate>Mon, 10 Jun 2013 21:19:09 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Naciones hispánicas]]></category>
+		<category><![CDATA[Liberalismo]]></category>
+		<guid isPermaLink="false">/?p=4992</guid>
+
+					<description><![CDATA[En el submundo de las cadenas televisivas por TDT, cada vez más numerosas (previa regulación política) y con cada vez más televidentes (es lo que tiene el mercado pletórico audiovisual, extensible a Internet y diversos canales de Youtube, Dailymotion o diversas televisoras que emiten su programación online, en streaming, como Tele K), surgen nuevas figuras catódicas dignas [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2013/villanueva-turrion/feed/</wfw:commentRss>
+			<slash:comments>63</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

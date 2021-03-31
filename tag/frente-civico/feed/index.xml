@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Frente Cívico &#8211; Izquierda Hispánica</title>
+	<atom:link href="/tag/frente-civico/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Fri, 17 May 2013 09:22:17 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Salir del Euro</title>
+		<link>/2013/4892/</link>
+		
+		<dc:creator><![CDATA[Agus]]></dc:creator>
+		<pubDate>Fri, 17 May 2013 07:14:20 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Crisis]]></category>
+		<category><![CDATA[Euro]]></category>
+		<category><![CDATA[Frente Cívico]]></category>
+		<category><![CDATA[Hispanidad]]></category>
+		<category><![CDATA[Socialismo]]></category>
+		<guid isPermaLink="false">/?p=4892</guid>
+
+					<description><![CDATA[Encabezado por Julio Anguita y otros miembros del Frente Cívico Somos Mayoría, se presenta el manifiesto Salir del Euro donde se dicen verdades como puños a todo aquel que las quiera escuchar. Desde Izquierda Hispánica, cuyos miembros participan a título individual en este  movimiento social,  no podemos sino  suscribir lo expresado en dicho manifiesto. Tan sólo [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,566 @@
+[
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/users/1"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "predecessor-version": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4635/revisions/4677",
+          "id": 4677
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/comments?post=4635"
+        }
+      ],
+      "self": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4635"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 24,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4635/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media?parent=4635"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media/4657"
+        }
+      ]
+    },
+    "author": 1,
+    "comment_status": "closed",
+    "content": {
+      "protected": false,
+      "rendered": "<p><a href=\"http://www.izquierdahispanica.org/quem-e-que-somos/\"><img loading=\"lazy\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/200px-Portuguese_language_PT-BR.png\" alt=\"Portuguese\" title=\"Também disponível em Português\" width=\"50\" height=\"35\" class=\"alignright size-thumbnail wp-image-4616\" /></a><a href=\"http://www.izquierdahispanica.org/quienes-somos/\"><img loading=\"lazy\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/200px-Spanish_language_ES-MX.png\" alt=\"Spanish\" width=\"50\" height=\"35\" class=\"alignright size-thumbnail wp-image-4620\" title=\"También disponible en español.\" /></a></p>\n<p style=\"text-align: justify;\">&quot;Izquierda Hispanica&quot; means hispanic left-wing. We are a group of people associated to work for the <strong>union of Latin America</strong> against global capitalism. Currently, this binding is ongoing by organizations such as <a title=\"Common Southern Market\" href=\"http://www.mercosur.int/\" target=\"_blank\">Mercosur</a>, <a title=\"The Bolivarian Alliance for the Peoples of Our America - Peoples' Trade Treaty\" href=\"http://www.alba-tcp.org/en\" target=\"_blank\">ALBA</a>, or the <a title=\"Community of Latin American and Caribbean Countries\" href=\"http://www.celac.gob.ve/index.php?lang=en\" target=\"_blank\">CELAC</a>. Although there is a long way ahead, we are convinced that this is the only reliable plan to achieve greater social equality and common development throughout the hispanic countries.</p>\n<p>We are also assured that the future of Spain and Portugal depends on refusing neoliberal policies from the EU and joining the hispanic union. Both nations would become the periphery of Latin America and would perform as a strategic link to Europe, the mediterranean countries and Russia. </p>\n<p>We are hispanics, and as such we are fighting for the Great Nation. That is why the <strong>main principle of our ideology is the international Hispanic community, which we call the <em>Hispanidad</em></strong>.</p>\n<h3>Why Hispanidad?</h3>\n<p><a href=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che.jpg\"><img loading=\"lazy\" class=\"alignright size-thumbnail wp-image-4587\" alt=\"Che Guevara\" title=\"Ernesto Che Guevara\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che-150x150.jpg\" width=\"150\" height=\"150\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che-150x150.jpg 150w, http://izquierdahispanica.org/wp-content/uploads/2013/03/che-92x92.jpg 92w, http://izquierdahispanica.org/wp-content/uploads/2013/03/che-100x100.jpg 100w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a>Being hispanic means opposing the Anglo-Saxon countries which enforce an individualistic, protestant and capitalist way of life. It means position yourself against the Islamic fundamentalism and criticizing the predatory tendencies of Chinese communism. </p>\n<p>Being hispanic is more than a way of life, is a way of being placed in the world. </p>\n<p>From <i>Izquierda Hispanica</i> we reject the discredit of our own common heritage and cultural pattern. In this sense, we are known for defending the institutions that make up the <i>Hispanidad</i>: Spanish and Portuguese languages, Roman Law, family ties characteristic of our culture, common history, art, music and even sports, to name just a handful of examples. </p>\n<p>At the present moment, these institutions have crystallized into a whole that remains. That whole sets us apart from other international communities about which we have spoken. They are not ashamed of their fanatical religion, or their genocides, neither of the desolation that has swept the world because of the capitalist globalization. Why we, the hispanic citizens, should not be proud of what unites us?</p>\n<h3>Why the Left?</h3>\n<p>Since the <a title=\"Wikipedia - Spanish Constitution of 1812\" href=\"http://en.wikipedia.org/wiki/Spanish_Constitution_of_1812\" target=\"_blank\">Spanish Constitution of 1812</a> and the struggle for a nation of free equal citizens, through the establishment of the <a title=\"Wikipedia - Rechtsstaat\" href=\"http://en.wikipedia.org/wiki/Rechtsstaat\" target=\"_blank\">Constitutional State</a> and parliamentary democracy, until the Cuban revolution led by <a title=\"Wikipedia - Ernesto Che Guevara\" href=\"http://en.wikipedia.org/wiki/Che_Guevara\" target=\"_blank\">Che Guevara</a> along with the recent <a title=\"(in Spanish) News - Ecuador refused to pay the debt and prospered. An example for the European crisis.\" href=\"http://www.monde-diplomatique.es/?url=mostrar/pagLibre/?nodo=c0c9a682-d412-4501-9cfd-cb6874237206\" target=\"_blank\">renegotiation of foreign debt in Ecuador</a>; the legacy of the left is full of victories.</p>\n<p>The problem with the current left-wing parties begun after the collapse of the Soviet Union. After leaving Marxism, some parties have conspired with capitalism or have hatched a mystical delusional ideology based on just beautyful speeches. However, we are not deceived by those speeches as they truly are decadent and shallow. <a href=\"http://youtu.be/IgR6uaVqWsQ\"><img loading=\"lazy\" class=\"alignleft size-thumbnail wp-image-4584\" title=\"Youtube -  Slavoj Zizek: Don't act, just think. (6m 34s)\" alt=\"Big Think's video of Slavoj Zizek: we must be very careful with what we do.\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-150x150.jpg\" width=\"150\" height=\"150\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-150x150.jpg 150w, http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-92x92.jpg 92w, http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-100x100.jpg 100w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a>Previous left-wing generations must give way to a stronger seventh generation which is going to be critical, down-to-earth and,  <a href=\"http://youtu.be/IgR6uaVqWsQ\" title=\"Slavoj Žižek: Don't Act. Just Think.\">as the philosopher Slavoj Zizek advised to the Occupy Wall Street movement</a>: well-thought.</p>\n<p>Mainly, our realistic and rational thinking is based on the philosophy of <a href=\"http://en.wikipedia.org/wiki/Gustavo_Bueno\">Gustavo Bueno</a>. Also, we follow the historical materialism of <a href=\"http://en.wikipedia.org/wiki/Karl_Marx\">Marx</a> and other great thinkers.</p>\n<h3>How I can be part of <i>Izquierda Hispanica</i>?</h3>\n<p>You are welcome to join <i>Izquierda Hispanica</i> cultural association if you agree with the goal of a socialist Latin-American union and with some of our main principles to build a new left-wing generation. </p>\n<p>Please, contact us at: <b><a rel=\"nofollow\" onclick=\"this.href= 'mail'+'to:'+'izquierda' + 'hispanica' + '@' + 'yahoo'+ '.es';\" href=\"mailto:A_no.spam_izquierdahispanica@yahoo.es@nospam.com\"><span style=\"visibility: hidden;\"><span style=\"display: none;\">A_</span>no.spam_</span>izquierdahispanica@yahoo.es<span style=\"visibility: hidden;\">@nospam.com</span></a></b></p>\n<p>&nbsp;</p>\n<p>Or you can make a donation via bank transfer to this spanish account:</p>\n<p class=\"aligncenter\"><b>2085 9742 14 0330255656</b>.</p>\n<p>Bank account number for international transfers:</p>\n<p class=\"aligncenter\"><b>IBAN ES8820859742140330255656</b><br />\nCódigo BIC (SWIFT) CAZRES2Z</p>\n<p>Or via Paypal clicking this button:</p>\n<form class=\"aligncenter\" style=\"margin-top: 0; padding-top: 0; line-height: 0;\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"encrypted\" value=\"-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBS8hsri8CYc/k5sgMh+IilJ/MgCkS8T93IgNzoNmRYhvv0Xpsc4ZxWrM/qKqtfENUO89lGf0KnnX0HQ3k6ju6KvaU6b8nyWB3mGyP1jXSSJwH8ZfJ/De7iiTcPGUuD8zlmVLeLprrigA/wzOJ7s/6n7h91OGjdqNUZfWVYad2NaDELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQI3GWLZhHLZk+AgaAT4EWLmXDYAbpts1sYUR2g+cBJsnSsP9dHZeGN3F5foPbxmESLH4Tj9hp5zGHEQ+hIJyUyak6T1QtXJ1WA5lZWX7GlO7rrYrdVYHC3yXA+eINF+LaNGzMVFVXAhoWWy5iulbc4Lq+Halu6OmRD/IlGKbI5PCNJFr1XkGofH16ub7OJm9dJ1V2iS1sdVontN7Yb9JBbjoZ4RS/W2FoJ8YDZoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTAxMTE0MTA0MjI3WjAjBgkqhkiG9w0BCQQxFgQUnSo0TVCSatczidyVpU2hkKPNuSMwDQYJKoZIhvcNAQEBBQAEgYALR3TXeD+Ol7amSr79ziuteGzeCeS0FiyzEPafNcmc9QM/F/Ud8LHLhdECp3XWO65RfarDG6MRpjNtr4y+xk38p6deq5FUplobWlncRUUV1KXwBcOoUB0SsyMD9jlSuv3OwrXqdCy/uyhmG18OyLgfgc24Fu3azqlU4+8cO6gGPA==-----END PKCS7----- \" /><input type=\"image\" alt=\"PayPal. La forma rápida y segura de pagar en Internet.\" name=\"submit\" src=\"https://www.paypal.com/es_ES/ES/i/btn/btn_donate_LG.gif\" /><img loading=\"lazy\" alt=\"\" src=\"https://www.paypal.com/es_ES/i/scr/pixel.gif\" width=\"1\" height=\"1\" border=\"0\" /></form>\n<p class=\"aligncenter\">Thank you.</p>\n"
+    },
+    "date": "2013-03-25T21:27:22",
+    "date_gmt": "2013-03-25T20:27:22",
+    "excerpt": {
+      "protected": false,
+      "rendered": "<p>&quot;Izquierda Hispanica&quot; means hispanic left-wing. We are a group of people associated to work for the union of Latin America against global capitalism. Currently, this binding is ongoing by organizations such as Mercosur, ALBA, or the CELAC. Although there is a long way ahead, we are convinced that this is the only reliable plan to [&hellip;]</p>\n"
+    },
+    "featured_media": 4657,
+    "guid": {
+      "rendered": "http://izquierdahispanica.org/?page_id=4635"
+    },
+    "id": 4635,
+    "link": "http://izquierdahispanica.org/quienes-somos/about-us/",
+    "menu_order": 0,
+    "meta": [],
+    "modified": "2013-03-26T00:45:04",
+    "modified_gmt": "2013-03-25T23:45:04",
+    "parent": 2,
+    "ping_status": "closed",
+    "slug": "about-us",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "About us"
+    },
+    "type": "page"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/users/6"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "predecessor-version": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4619/revisions/4676",
+          "id": 4676
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/comments?post=4619"
+        }
+      ],
+      "self": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4619"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 13,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4619/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media?parent=4619"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media/4632"
+        }
+      ]
+    },
+    "author": 6,
+    "comment_status": "closed",
+    "content": {
+      "protected": false,
+      "rendered": "<p><a href=\"http://www.izquierdahispanica.org/about-us/\"><img loading=\"lazy\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/200px-English_language_EN-US.png\" alt=\"English\" width=\"50\" height=\"35\" class=\"alignright size-thumbnail wp-image-4617\" title=\"Read about us in English.\"/></a><a href=\"http://www.izquierdahispanica.org/quienes-somos/\"><img loading=\"lazy\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/200px-Spanish_language_ES-MX.png\" alt=\"Spanish\" width=\"50\" height=\"35\" class=\"alignright size-thumbnail wp-image-4620\" title=\"También disponible en español.\" /></a></p>\n<p style=\"text-align: justify;\">Izquierda Hispánica é uma associação cultural que trabalha a favor da <strong>união Ibero-americana</strong>, para estabelecer políticas opostas ao capitalismo dos Estados Unidos e da Europa. União esta, que já está em marcha em organizações como o <a title=\"Mercado Comum do Sul\" href=\"http://www.mercosur.int/\" target=\"_blank\">Mercosur</a>, o <a title=\"Aliança Bolivariana para os Povos de Nossa América.\" href=\"http://www.alba-tcp.org/\" target=\"_blank\">ALBA</a>, ou a <a title=\"Comunidade da América Latina e Caribe\" href=\"http://www.celac.gob.ve/\" target=\"_blank\">CELAC</a>. Ainda que haja muito caminho por percorrer, estamos convencidos de que este é o único projecto viável para conseguir mais igualdade social e desenvolvimento comum em toda a Hispanidad.</p>\n<p>Temos também a certeza de que o futuro de Espanha e Portugal depende de que ambos países abandonem as políticas neoliberais europeístas e adiram a esta união. As duas nações formariam a periferia da América Latina e seriam um enlace estratégico com o continente europeu, o Mediterrâneo e com a Rússia inclusive.</p>\n<p>Somos hispanos, e como tais, lutamos pela Pátria Grande, ou seja, <strong>o pilar mais importante da nossa ideologia é a Hispanidade</strong>.</p>\n<h3>Porquê a Hispanidad?</h3>\n<p><a href=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che.jpg\"><img loading=\"lazy\" class=\"alignright size-thumbnail wp-image-4587\" alt=\"Ché Guevara\" title=\"Ernesto Ché Guevara\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che-150x150.jpg\" width=\"150\" height=\"150\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che-150x150.jpg 150w, http://izquierdahispanica.org/wp-content/uploads/2013/03/che-92x92.jpg 92w, http://izquierdahispanica.org/wp-content/uploads/2013/03/che-100x100.jpg 100w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a>Ser hispano é enfrentar os países anglo-saxónicos que impõem um modo de vida individual, protestante e capitalista. Implica tomar uma posição perante a plataforma islâmica, cujo fundamentalismo impede o desenvolvimento dos seus países. Significa também criticar o comunismo predador chinês.</p>\n<p>Ser hispano, mais que uma forma de ser, é uma forma de estar no mundo.</p>\n<p>Na Izquierda Hispánica recusamos o descrédito próprio dos nossos elementos comuns. Neste sentido, somos conhecidos por defender as instituições que formam a Hispanidad: o idioma espanhol e português; o direito romano, em que se baseiam todas nossas legislações; os laços familiares característicos da nossa cultura; a História comum; a arte; a música e inclusive o desporto; nomeando apenas alguns exemplos.</p>\n<p>No presente, estas mesmas instituições têm-se cristalizado numa unidade, que permanece e que nos distingue de outras plataformas internacionais, das quais já temos falado. Elas não se envergonham da sua religião fanática, nem dos seus genocídios, nem da ruína à que têm arrastado ao mundo com a globalização do sistema capitalista. Por que é que os hispanos não nos devemos sentir orgulhosos do que nos une?</p>\n<h3>Porquê a Esquerda?</h3>\n<p>Desde a <a title=\"Wikipédia - Constitución de Cádis\" href=\"http://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_de_C%C3%A1dis\" target=\"_blank\">Constituição de Cádis</a> e a sua luta pela Nação política de cidadãos livres e iguais, a passar pela constituição do <a title=\"Wikipédia - Estado de Direito\" href=\"http://pt.wikipedia.org/wiki/Estado_de_direito\" target=\"_blank\">Estado de Direito</a> e a democracia parlamentar, até à revolução cubana liderada pelo <a title=\"Wikipédia - Ernesto Ché Guevara\" href=\"http://pt.wikipedia.org/wiki/Che_Guevara\" target=\"_blank\">Ché Guevara</a> ou a recente <a title=\"(Em espanhol) Notícias - Equador recusou-se a pagar a dívida e prosperou. Um exemplo para uma Europa em crise.\" href=\"http://www.monde-diplomatique.es/?url=mostrar/pagLibre/?nodo=c0c9a682-d412-4501-9cfd-cb6874237206\" target=\"_blank\">renegociação da dívida externa do Equador</a>; o legado das esquerdas está cheia de grandes triunfos.</p>\n<p>O problema das esquerdas atuais encontra-se após a queda da União Soviética. <a href=\"http://youtu.be/k2x8TC-zXio\"><img loading=\"lazy\" class=\"alignleft size-thumbnail wp-image-4584\" title=\"(Em Inglês com legendas em espanhol) Youtube -  Slavoj Zizek: Não agir, só pensar. (6m 34s)\" alt=\"Captura de vídeo, Slavoj Zizek: temos de ter muito cuidado com o que fazemos\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-150x150.jpg\" width=\"150\" height=\"150\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-150x150.jpg 150w, http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-92x92.jpg 92w, http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-100x100.jpg 100w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a>Depois de abandonar maioritariamente o marxismo, alguns partidos têm-se confabulado com o capitalismo ou têm tecido uma ideologia ilusória e mística de bonitos discursos. No entanto, não nos enganam porque esses discursos resultam decadentes e vazios.<br />\nAs anteriores gerações de esquerdas devem dar passo a uma sétima geração forte, crítica, com os pés na terra e, como <a href=\"http://youtu.be/k2x8TC-zXio\" title=\"(Em Inglês com legendas em espanhol) Youtube -  Slavoj Zizek: Não agir, só pensar. (6m 34s)\">aconselhava o filósofo Slavoj Žižek</a>, muito pensada.</p>\n<h3>Como é que posso formar parte da Izquierda Hispánica?</h3>\n<p>Convidamos a fazer parte da Asociación Cultural Izquierda Hispánica a todos aqueles que compartilham a finalidade de uma união socialista ibero-americana e que estejam de acordo com alguns de nossos princípios, para trabalhar por uma nova esquerda. </p>\n<p>Contacte-nos: <b><a rel=\"nofollow\" onclick=\"this.href= 'mail'+'to:'+'izquierda' + 'hispanica' + '@' + 'yahoo'+ '.es';\" href=\"mailto:A_no.spam_izquierdahispanica@yahoo.es@nospam.com\"><span style=\"visibility: hidden;\"><span style=\"display: none;\">A_</span>no.spam_</span>izquierdahispanica@yahoo.es<span style=\"visibility: hidden;\">@nospam.com</span></a></b></p>\n<p>&nbsp;</p>\n<p>Ou se desejar fazer qualquer contribuição monetária pode realizar um depósito na Cuenta Corriente da Ibercaja:</p>\n<p class=\"aligncenter\"><b>2085 9742 14 0330255656</b>.</p>\n<p>Para transferências fora de Espanha:</p>\n<p class=\"aligncenter\"><b>IBAN ES8820859742140330255656</b><br />\nCódigo BIC (SWIFT) CAZRES2Z</p>\n<p>Também através de PayPal:</p>\n<form class=\"aligncenter\" style=\"margin-top: 0; padding-top: 0; line-height: 0;\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"encrypted\" value=\"-----BEGIN PKCS7-----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-----END PKCS7----- \" /><input type=\"image\" alt=\"PayPal. La forma rápida y segura de pagar en Internet.\" name=\"submit\" src=\"https://www.paypal.com/es_ES/ES/i/btn/btn_donate_LG.gif\" /><img loading=\"lazy\" alt=\"\" src=\"https://www.paypal.com/es_ES/i/scr/pixel.gif\" width=\"1\" height=\"1\" border=\"0\" /></form>\n<p class=\"aligncenter\">Muito obrigado.</p>\n"
+    },
+    "date": "2013-03-25T16:38:44",
+    "date_gmt": "2013-03-25T15:38:44",
+    "excerpt": {
+      "protected": false,
+      "rendered": "<p>Izquierda Hispánica é uma associação cultural que trabalha a favor da união Ibero-americana, para estabelecer políticas opostas ao capitalismo dos Estados Unidos e da Europa. União esta, que já está em marcha em organizações como o Mercosur, o ALBA, ou a CELAC. Ainda que haja muito caminho por percorrer, estamos convencidos de que este é [&hellip;]</p>\n"
+    },
+    "featured_media": 4632,
+    "guid": {
+      "rendered": "http://izquierdahispanica.org/?page_id=4619"
+    },
+    "id": 4619,
+    "link": "http://izquierdahispanica.org/quienes-somos/quem-e-que-somos/",
+    "menu_order": 0,
+    "meta": [],
+    "modified": "2013-03-26T00:44:11",
+    "modified_gmt": "2013-03-25T23:44:11",
+    "parent": 2,
+    "ping_status": "closed",
+    "slug": "quem-e-que-somos",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Quem é que somos?"
+    },
+    "type": "page"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/users/6"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "predecessor-version": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/2/revisions/4775",
+          "id": 4775
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/comments?post=2"
+        }
+      ],
+      "self": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/2"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 26,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/2/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media?parent=2"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media/991"
+        }
+      ]
+    },
+    "author": 6,
+    "comment_status": "closed",
+    "content": {
+      "protected": false,
+      "rendered": "<p><a href=\"http://www.izquierdahispanica.org/about-us/\"><img loading=\"lazy\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/200px-English_language_EN-US.png\" alt=\"English\" width=\"50\" height=\"35\" class=\"alignright size-thumbnail wp-image-4617\" title=\"Read about us in English.\"/></a><a href=\"http://www.izquierdahispanica.org/quem-e-que-somos/\"><img loading=\"lazy\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/200px-Portuguese_language_PT-BR.png\" alt=\"Portuguese\" title=\"Também disponível em Português\" width=\"50\" height=\"35\" class=\"alignright size-thumbnail wp-image-4616\" /></a></p>\n<p style=\"text-align: justify;\">Izquierda Hispánica es una asociación cultural que trabaja a favor de la <strong>unión de Iberoamérica</strong>, para establecer unas políticas distintas al capitalismo estadounidense y europeo. Dicha unión ya está en marcha mediante organizaciones como el <a title=\"Mercado Común del Sur\" href=\"http://www.mercosur.int/\" target=\"_blank\">Mercosur</a>, el <a title=\"Alianza Bolivariana para los Pueblos de Nuestra América \" href=\"http://www.alba-tcp.org/\" target=\"_blank\">ALBA</a>, o la <a title=\"Comunidad de Estados Latinoamericanos y Caribeños\" href=\"http://www.celac.gob.ve/\" target=\"_blank\">CELAC</a>. Aunque hay mucho camino por recorrer, estamos convencidos de que este es el único proyecto viable para lograr más igualdad social y desarrollo común en toda la Hispanidad.</p>\n<p>También estamos seguros de que el futuro de España y Portugal depende de que ambos países abandonen las políticas neoliberales europeístas y se sumen a esta unión. Las dos naciones formarían la periferia de América Latina y serían un enlace estratégico con el continente europeo, el Mediterráneo e incluso con Rusia.</p>\n<p>Somos hispanos, y como tales luchamos por la Patria Grande, por eso <strong>el pilar más importante de nuestra ideología es la Hispanidad</strong>.</p>\n<h3>¿Por qué la Hispanidad?</h3>\n<p><a href=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che.jpg\"><img loading=\"lazy\" class=\"alignright size-thumbnail wp-image-4587\" alt=\"Ché Guevara\" title=\"Ernesto Ché Guevara\" src=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che-150x150.jpg\" width=\"150\" height=\"150\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2013/03/che-150x150.jpg 150w, http://izquierdahispanica.org/wp-content/uploads/2013/03/che-92x92.jpg 92w, http://izquierdahispanica.org/wp-content/uploads/2013/03/che-100x100.jpg 100w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a>Ser hispano es enfrentarse a los países anglosajones que imponen un modo de vida individual, protestante y capitalista. Supone tomar una posición ante la plataforma islámica cuyo fundamentalismo impide el desarrollo de sus países. También significa criticar el comunismo depredador chino.</p>\n<p>Ser hispano, más que una forma de ser, es una forma de estar en el mundo.</p>\n<p>Desde Izquierda Hispánica rechazamos el descrédito propio de nuestros elementos comunes. En este sentido, somos conocidos por defender las instituciones que conforman la Hispanidad: el idioma español y portugués, el derecho romano en que se basan todas nuestras legislaciones, los lazos familiares característicos de nuestra cultura, la Historia común, el arte, la música e incluso el deporte, por poner solo un puñado de ejemplos.</p>\n<p>En el presente, dichas instituciones han cristalizado en una unidad que permanece y que nos distingue de otras plataformas internacionales de las que ya hemos hablado. Ellas no se avergüenzan de su fanática religión, ni de sus genocidios, ni de la ruina a la que han arrastrado al mundo con la globalización del sistema capitalista. ¿Por qué los hispanos no debemos sentirnos orgullosos de lo que nos une?</p>\n<h3>¿Por qué la Izquierda?</h3>\n<p>Desde la <a title=\"Wikipedia - Constitución de Cádiz\" href=\"http://es.wikipedia.org/wiki/Constituci%C3%B3n_espa%C3%B1ola_de_1812\" target=\"_blank\">Constitución de Cádiz</a> y su lucha por la Nación política de ciudadanos libres e iguales, pasando por la constitución del <a title=\"Wikipedia - Estado de Derecho\" href=\"http://es.wikipedia.org/wiki/Estado_de_derecho\" target=\"_blank\">Estado de Derecho</a> y la democracia parlamentaria, hasta llegar a la revolución cubana liderada por el <a title=\"Wikipedia - Ernesto Ché Guevara\" href=\"http://es.wikipedia.org/wiki/Che_guevara\" target=\"_blank\">Ché Guevara</a> o la reciente <a title=\"Noticia - Ecuador se negó a pagar la deuda y prosperó. Un ejemplo para una Europa en crisis.\" href=\"http://www.monde-diplomatique.es/?url=mostrar/pagLibre/?nodo=c0c9a682-d412-4501-9cfd-cb6874237206\" target=\"_blank\">renegociación de la deuda externa de Ecuador</a>; el legado de las izquierdas está lleno de grandes triunfos.</p>\n<p>El problema de las izquierdas actuales lo encontramos después de la caída de la Unión Soviética. Tras abandonar mayoritariamente el marxismo, algunos partidos se han confabulado con el capitalismo o han urdido una ideología ilusoria y mística de bonitos discursos. Sin embargo, no nos engañan porque esos discursos resultan decadentes y vacíos. <a href=\"http://youtu.be/k2x8TC-zXio\"><img loading=\"lazy\" class=\"alignleft size-thumbnail wp-image-4584\" title=\"Youtube -  Slavoj Zizek: No actúes, sólo piensa. (6m 34s)\" alt=\"Captura de vídeo de Slavoj Zizek con subtítulos: debemos tener mucho cuidado con lo que hacemos\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-150x150.jpg\" width=\"150\" height=\"150\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-150x150.jpg 150w, http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-92x92.jpg 92w, http://izquierdahispanica.org/wp-content/uploads/2011/03/zizek-no-actues-solo-piensa-100x100.jpg 100w\" sizes=\"(max-width: 150px) 100vw, 150px\" /></a>Las anteriores generaciones de izquierdas deben dar paso a una séptima generación fuerte, crítica, con los pies en la tierra y, <a href=\"http://youtu.be/k2x8TC-zXio\">como aconsejaba el filósofo Slavoj Žižek</a>, muy pensada.</p>\n<p>Principalmente, nuestro pensamiento realista y racional se basa en la filosofía de <a href=\"http://es.wikipedia.org/wiki/Gustavo_Bueno\">Gustavo Bueno</a>. También nos declaramos seguidores del materialismo histórico de <a href=\"http://es.wikipedia.org/wiki/Karl_Marx\">Marx</a> y otros grandes pensadores.</p>\n<h3>¿Cómo puedo formar parte de Izquierda Hispánica?</h3>\n<p>Invitamos a formar parte de la Asociación Cultural Izquierda Hispánica a todos aquellos que comparten la finalidad de una unión socialista iberoamericana y que estén de acuerdo con algunos de nuestros principios para trabajar por una nueva izquierda.</p>\n<p>Contacta con nosotros en: <b><a rel=\"nofollow\" onclick=\"this.href= 'mail'+'to:'+'izquierda' + 'hispanica' + '@' + 'yahoo'+ '.es';\" href=\"mailto:A_no.spam_izquierdahispanica@yahoo.es@nospam.com\"><span style=\"visibility: hidden;\"><span style=\"display: none;\">A_</span>no.spam_</span>izquierdahispanica@yahoo.es<span style=\"visibility: hidden;\">@nospam.com</span></a></b></p>\n<p>&nbsp;</p>\n<p>O si deseas hacer cualquier aportación económica puedes realizar un ingreso en la Cuenta Corriente de Ibercaja:</p>\n<p class=\"aligncenter\"><b>2085 9742 14 0330255656</b>.</p>\n<p>Códigos de pago desde fuera de España:</p>\n<p class=\"aligncenter\"><b>IBAN ES8820859742140330255656</b><br />\nCódigo BIC (SWIFT) CAZRES2Z</p>\n<p>También a través de PayPal siguiendo este botón:</p>\n<form class=\"aligncenter\" style=\"margin-top: 0; padding-top: 0; line-height: 0;\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"encrypted\" value=\"-----BEGIN PKCS7-----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-----END PKCS7----- \" /><input type=\"image\" alt=\"PayPal. La forma rápida y segura de pagar en Internet.\" name=\"submit\" src=\"https://www.paypal.com/es_ES/ES/i/btn/btn_donate_LG.gif\" /><img loading=\"lazy\" alt=\"\" src=\"https://www.paypal.com/es_ES/i/scr/pixel.gif\" width=\"1\" height=\"1\" border=\"0\" /></form>\n<p class=\"aligncenter\">Muchas gracias.</p>\n"
+    },
+    "date": "2013-03-18T23:00:26",
+    "date_gmt": "2013-03-18T22:00:26",
+    "excerpt": {
+      "protected": false,
+      "rendered": "<p>Izquierda Hispánica es una asociación cultural que trabaja a favor de la unión de Iberoamérica, para establecer unas políticas distintas al capitalismo estadounidense y europeo. Dicha unión ya está en marcha mediante organizaciones como el Mercosur, el ALBA, o la CELAC. Aunque hay mucho camino por recorrer, estamos convencidos de que este es el único [&hellip;]</p>\n"
+    },
+    "featured_media": 991,
+    "guid": {
+      "rendered": "http://izquierdahispanica.org/?page_id=2"
+    },
+    "id": 2,
+    "link": "http://izquierdahispanica.org/quienes-somos/",
+    "menu_order": 2,
+    "meta": [],
+    "modified": "2013-04-12T03:24:53",
+    "modified_gmt": "2013-04-12T01:24:53",
+    "parent": 0,
+    "ping_status": "closed",
+    "slug": "quienes-somos",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "¿Quiénes somos?"
+    },
+    "type": "page"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/users/2"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "predecessor-version": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/59/revisions/65",
+          "id": 65
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/comments?post=59"
+        }
+      ],
+      "self": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/59"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 70,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/59/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media?parent=59"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media/3155"
+        }
+      ]
+    },
+    "author": 2,
+    "comment_status": "open",
+    "content": {
+      "protected": false,
+      "rendered": "<p style=\"text-align: center;\"><strong>ORGANIZACIONES HERMANAS DE IZQUIERDA HISPÁNICA FUERA DE ESPAÑA</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://www.iiadechile.cl/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-medium wp-image-4845\" alt=\"banner IIbCh\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/banner-IIbCh-300x47.jpg\" width=\"300\" height=\"47\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/banner-IIbCh-300x47.jpg 300w, http://izquierdahispanica.org/wp-content/uploads/2011/03/banner-IIbCh.jpg 591w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p style=\"text-align: center;\"><strong>ZAFARRANCHO</strong></p>\n<p style=\"text-align: center;\"><strong><a href=\"http://www.zafarrancho.org/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://img841.imageshack.us/img841/1516/zafarranchocabeceramini.jpg\" width=\"384\" height=\"216\" /></a></strong></p>\n<p style=\"text-align: center;\"><strong><a href=\"http://www.youtube.com/user/zafarranchoTV\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://img204.imageshack.us/img204/1516/zafarranchocabeceramini.jpg\" width=\"380\" height=\"178\" /></a></strong></p>\n<p style=\"text-align: center;\"><strong><a href=\"https://www.facebook.com/zafarranchotv?notif_t=page_new_likes\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://img827.imageshack.us/img827/1516/zafarranchocabeceramini.jpg\" width=\"379\" height=\"164\" /></a></strong></p>\n<p style=\"text-align: center;\"><strong>IZQUIERDA HISPÁNICA en REDES SOCIALES</strong></p>\n<p style=\"text-align: center;\"><strong><a href=\"https://www.facebook.com/izquierda.hispanica\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/64753_10151453178137485_1496431892_n.jpg\" width=\"511\" height=\"189\" /></a></strong></p>\n<div style=\"width: 377px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" class=\"   \" alt=\"\" src=\"http://img854.imageshack.us/img854/3203/ihlogotwitter.jpg\" width=\"367\" height=\"222\" /><p class=\"wp-caption-text\">https://twitter.com/#!/izquierdah</p></div>\n<p style=\"text-align: center;\"><strong>IZQUIERDA HISPÁNICA &#8211; BLOGS y PÁGINAS HISTÓRICAS (2006-2010)</strong></p>\n<div style=\"width: 160px\" class=\"wp-caption aligncenter\"><a href=\"http://izquierdahispanica.blogspot.com.es/\"><img loading=\"lazy\" alt=\"Blog que fue de prueba para luego pasarnos a WordPress.\" src=\"http://img410.imageshack.us/img410/3378/pcnebanderaondeandofa4.png\" width=\"150\" height=\"113\" /></a><p class=\"wp-caption-text\">Blog original y primero de Izquierda Hispánica. Noviembre 2006-Abril 2007.</p></div>\n<p style=\"text-align: center;\"><a href=\"http://izquierdahispanica.wordpress.com/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-full wp-image-3876\" title=\"Izquierda Hispánica - Blog Original 2006-2008 -\" alt=\"\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Izquierda-Hispánica-Blog-Original-2006-2008.jpg\" width=\"354\" height=\"90\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Izquierda-Hispánica-Blog-Original-2006-2008.jpg 354w, http://izquierdahispanica.org/wp-content/uploads/2011/03/Izquierda-Hispánica-Blog-Original-2006-2008-300x76.jpg 300w\" sizes=\"(max-width: 354px) 100vw, 354px\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.izquierdahispanica.org/about.php\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-full wp-image-3960\" title=\"IH banner 2008-2010\" alt=\"\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/IH-banner-2008-2010.jpg\" width=\"462\" height=\"73\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/IH-banner-2008-2010.jpg 824w, http://izquierdahispanica.org/wp-content/uploads/2011/03/IH-banner-2008-2010-300x47.jpg 300w\" sizes=\"(max-width: 462px) 100vw, 462px\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.bcnmes.com/opinion-archive-by-column/zafarrancho-bcn/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-medium wp-image-4001\" title=\"zafarrancho bcn ih\" alt=\"\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zafarrancho-bcn-ih-300x214.jpg\" width=\"300\" height=\"214\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/zafarrancho-bcn-ih-300x214.jpg 300w, http://izquierdahispanica.org/wp-content/uploads/2011/03/zafarrancho-bcn-ih.jpg 720w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p style=\"text-align: center;\"><strong>ARGENTINA</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://sur.infonews.com/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"Inicio\" src=\"http://sur.infonews.com/sites/default/files/www_miradas_al_sur_com_logo.gif\" width=\"455\" height=\"122\" /></a></p>\n<p><a href=\"http://conjeturando.blogspot.com.ar/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"Política, ideología y conjeturas\" src=\"http://3.bp.blogspot.com/-iS_ZNlFN4bs/TeZeGplcxZI/AAAAAAAAAx0/b3B6m7BdP2I/s1600/2377151489_9d0968c7e5.jpg\" width=\"500\" height=\"107\" /></a></p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><a href=\"http://revistaeltranvia.com.ar/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-medium wp-image-4613\" alt=\"revista el tranvía banner\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/revista-el-tranvía-banner-300x94.jpg\" width=\"300\" height=\"94\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/revista-el-tranvía-banner-300x94.jpg 300w, http://izquierdahispanica.org/wp-content/uploads/2011/03/revista-el-tranvía-banner.jpg 475w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p style=\"text-align: center;\"><strong>MÉXICO</strong></p>\n<div style=\"width: 458px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" class=\"  \" alt=\"\" src=\"http://www.plazadearmas.tv/img/pa640.jpg\" width=\"448\" height=\"106\" /><p class=\"wp-caption-text\">http://www.plazadearmas.tv/</p></div>\n<p style=\"text-align: center;\"><strong>PORTUGAL</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://unioniberica.forogratis.es/index.html\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://unioniberica.forogratis.es/homes/unioniberica_forogratis_es/logo/logo.gif\" width=\"564\" height=\"71\" /></a></p>\n<p style=\"text-align: center;\"> <strong style=\"text-align: center;\">CUBA</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://www.granma.cubaweb.cu/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://www.granma.cubaweb.cu/imagenes/granweb229d.jpg\" width=\"229\" height=\"57\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.granma.cu/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://www.granma.cu/imag/logo.png\" width=\"165\" height=\"58\" /></a></p>\n<p style=\"text-align: center;\"><strong>CHILE</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://www.confemin.cl\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://www.confemin.cl/templates/confemin1.0/images/logo.png\" width=\"160\" height=\"160\" /></a></p>\n<p style=\"text-align: center;\"><strong>ESPAÑA</strong></p>\n<p style=\"text-align: center;\"><strong><a href=\"http://www.labalsadepiedra.org/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://labalsadepiedra.org/wp-content/uploads/CabeceroLBDP1.png\" width=\"378\" height=\"67\" /></a></strong></p>\n<p style=\"text-align: center;\"><strong><a href=\"http://colectivoprometeo.blogspot.com.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-full wp-image-3505\" title=\"Colectivo Prometeo jpeg\" alt=\"\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Colectivo-Prometeo-jpeg.jpg\" width=\"218\" height=\"301\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Colectivo-Prometeo-jpeg.jpg 218w, http://izquierdahispanica.org/wp-content/uploads/2011/03/Colectivo-Prometeo-jpeg-217x300.jpg 217w\" sizes=\"(max-width: 218px) 100vw, 218px\" /></a></strong></p>\n<p style=\"text-align: center;\"><a href=\"http://fgbueno.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" title=\"Fundación Gustavo Bueno\" alt=\"Logotipo Fundacion Gustavo Bueno\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/fundacion-gustavo-bueno.jpg\" width=\"246\" height=\"80\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.rebelion.org/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://www.rebelion.org/graficos/cabnueva.jpg\" width=\"611\" height=\"31\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.alternativaciudadana.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-medium wp-image-4717\" alt=\"Alternativa Ciudadana Progresista banner\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Alternativa-Ciudadana-Progresista-banner-300x34.png\" width=\"300\" height=\"34\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Alternativa-Ciudadana-Progresista-banner-300x34.png 300w, http://izquierdahispanica.org/wp-content/uploads/2011/03/Alternativa-Ciudadana-Progresista-banner.png 524w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.vozbcn.com/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://cdn7.vozbcn.com/wp-content/themes/vozbcnold/images/logo-vozbcn.png\" width=\"538\" height=\"34\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://elrepublicohispano.blogspot.com.es/\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://1.bp.blogspot.com/-YXFP-i-bsl0/UYaZkxTBxBI/AAAAAAAABIc/WOgVKYqxAQc/s1600/cabecera%2B2.jpg\" width=\"610\" height=\"120\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://aptsfelguerinos.blogspot.com.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://4.bp.blogspot.com/-rv5CKZ48F2g/UEfDHGourfI/AAAAAAAAAPU/pUSuunQGLag/s1600/T%25C3%25ADtulo%2Bfinal%2B2%2Bcopia.png\" width=\"576\" height=\"126\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://joseluispozo.com/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://joseluispozo.com/jose%20luis%20pozo%20fajarnesy%20pericles.jpg\" width=\"361\" height=\"269\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://corrientehispanista.blogspot.com.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://2.bp.blogspot.com/--Dr8uvsvCIk/T-ZQqi_73qI/AAAAAAAAB60/pRQRkRajRdc/s214/Fundacion.png\" width=\"409\" height=\"274\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://elpulidordecristales.wordpress.com/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://elpulidordecristales.files.wordpress.com/2010/11/cropped-el-pulidor-de-cristales-copia2.jpg\" width=\"361\" height=\"76\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://konstelacio.blogspot.com.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://4.bp.blogspot.com/-6xa0ASAE-HE/UGlXfv462mI/AAAAAAAAAHw/tF8KkSn4vIE/s1150/Kostelacio%2B%255B4%255D%2B%25281%2529.jpg\" width=\"435\" height=\"54\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://diamat.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-full wp-image-2765\" title=\"Diamat-ES\" alt=\"\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Diamat-ES.jpg\" width=\"420\" height=\"121\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Diamat-ES.jpg 600w, http://izquierdahispanica.org/wp-content/uploads/2011/03/Diamat-ES-300x86.jpg 300w\" sizes=\"(max-width: 420px) 100vw, 420px\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://ratadelinfierno.blogspot.com.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-medium wp-image-4861\" alt=\"sapito blog\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/sapito-blog-300x55.png\" width=\"300\" height=\"55\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/sapito-blog-300x55.png 300w, http://izquierdahispanica.org/wp-content/uploads/2011/03/sapito-blog.png 591w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://armesilla.blogspot.com.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://2.bp.blogspot.com/-da1NUnj93xM/UEKc-osrQII/AAAAAAAAAFA/wOhVXqa4Hus/s1600/Armesilla%2BBanner.JPG\" width=\"470\" height=\"114\" /></a></p>\n<p style=\"text-align: center;\"><strong>HONDURAS</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://www.defensoresenlinea.com/cms/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter size-medium wp-image-67\" title=\"Defensores en Línea\" alt=\"\" src=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Defensores-en-Línea-300x54.jpg\" width=\"300\" height=\"54\" srcset=\"http://izquierdahispanica.org/wp-content/uploads/2011/03/Defensores-en-Línea-300x54.jpg 300w, http://izquierdahispanica.org/wp-content/uploads/2011/03/Defensores-en-Línea.jpg 576w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://voselsoberano.com/v1/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://voselsoberano.com/v1/templates/singorilasv2/img/top/logo.jpg\" width=\"452\" height=\"76\" /></a></p>\n<p style=\"text-align: center;\"><strong>SÁHARA OCCIDENTAL</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://www.saharalibre.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://www.saharalibre.es/images/cabecera/bg.jpg\" width=\"280\" height=\"110\" /></a></p>\n<p style=\"text-align: center;\"><strong>REPÚBLICA BOLIVARIANA DE VENEZUELA</strong></p>\n<p style=\"text-align: center;\"><a href=\"http://jovenesporelalba.com.ve/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://profile.ak.fbcdn.net/hprofile-ak-snc4/hs1282.snc4/174600_136943749692019_8248375_n.jpg\" width=\"200\" height=\"289\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.aporrea.org/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://www.aporrea.org/imagenes/logos/aporrea-logo7.gif\" width=\"118\" height=\"118\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.telesurtv.net/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://www.telesurtv.net/secciones/images/logo_telesur.jpg\" width=\"346\" height=\"137\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.sinlatencia.blogspot.com.es/\" target=\"_blank\"><img loading=\"lazy\" class=\"aligncenter\" alt=\"\" src=\"http://2.bp.blogspot.com/_j66iX3N52Uk/S4HMlm0YM7I/AAAAAAAAAQU/ZaxmyTE1SCA/S240/sinlatencia+BLOG.jpg\" width=\"240\" height=\"193\" /></a></p>\n<p style=\"text-align: center;\"><a href=\"http://www.csprensa.com.ve/index\" target=\"_blank\"><img class=\"aligncenter\" alt=\"\" src=\"https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/527598_109223955899391_1389108757_n.jpg\" /></a></p>\n"
+    },
+    "date": "2011-03-12T20:34:09",
+    "date_gmt": "2011-03-12T19:34:09",
+    "excerpt": {
+      "protected": false,
+      "rendered": "<p>ORGANIZACIONES HERMANAS DE IZQUIERDA HISPÁNICA FUERA DE ESPAÑA ZAFARRANCHO IZQUIERDA HISPÁNICA en REDES SOCIALES IZQUIERDA HISPÁNICA &#8211; BLOGS y PÁGINAS HISTÓRICAS (2006-2010) ARGENTINA &nbsp; MÉXICO PORTUGAL  CUBA CHILE ESPAÑA HONDURAS SÁHARA OCCIDENTAL REPÚBLICA BOLIVARIANA DE VENEZUELA</p>\n"
+    },
+    "featured_media": 3155,
+    "guid": {
+      "rendered": "http://izquierdahispanica.org/?page_id=59"
+    },
+    "id": 59,
+    "link": "http://izquierdahispanica.org/enlaces/",
+    "menu_order": 0,
+    "meta": [],
+    "modified": "2013-06-02T09:54:22",
+    "modified_gmt": "2013-06-02T07:54:22",
+    "parent": 0,
+    "ping_status": "closed",
+    "slug": "enlaces",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Enlaces"
+    },
+    "type": "page"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/users/1"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "predecessor-version": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/19/revisions/4776",
+          "id": 4776
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/comments?post=19"
+        }
+      ],
+      "self": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/19"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/19/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media?parent=19"
+        }
+      ]
+    },
+    "author": 1,
+    "comment_status": "open",
+    "content": {
+      "protected": false,
+      "rendered": "<p>No edites esta p&aacute;gina</p>\n"
+    },
+    "date": "2011-03-11T04:25:59",
+    "date_gmt": "2011-03-11T03:25:59",
+    "excerpt": {
+      "protected": false,
+      "rendered": "<p>No edites esta p&aacute;gina</p>\n"
+    },
+    "featured_media": 0,
+    "guid": {
+      "rendered": "http://izquierdahispanica.org/archivepage/"
+    },
+    "id": 19,
+    "link": "http://izquierdahispanica.org/archivepage/",
+    "menu_order": 1,
+    "meta": [],
+    "modified": "2013-04-12T03:25:00",
+    "modified_gmt": "2013-04-12T01:25:00",
+    "parent": 0,
+    "ping_status": "closed",
+    "slug": "archivepage",
+    "status": "publish",
+    "template": "page-archives.php",
+    "title": {
+      "rendered": "Archivo"
+    },
+    "type": "page"
+  },
+  {
+    "_links": {
+      "about": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/users/1"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages"
+        }
+      ],
+      "curies": [
+        {
+          "href": "https://api.w.org/{rel}",
+          "name": "wp",
+          "templated": true
+        }
+      ],
+      "predecessor-version": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4606/revisions/4611",
+          "id": 4611
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/comments?post=4606"
+        }
+      ],
+      "self": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4606"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/19"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 4,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/pages/4606/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media?parent=4606"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://izquierdahispanica.org/wp-json/wp/v2/media/4610"
+        }
+      ]
+    },
+    "author": 1,
+    "comment_status": "open",
+    "content": {
+      "protected": false,
+      "rendered": "<h5 style=\"text-align: center;\"><a href=\"http://izquierdahispanica.org/tag/ideologia/\">Compilación de artículos sobre nuestra ideología</a></h5>\n<p style=\"text-align: justify;\">Desde que, en el año 2006, nació <strong>Izquierda Hispánica (IH)</strong> como <strong>bitácora creada por cuatro estudiantes de la Facultad de Ciencias Políticas y Sociología de la Universidad Complutense de Madrid, España</strong>, la vocación de las webs asociadas a la marca IH siempre pudo calificarse con dos palabras: <strong>radical y revolucionaria</strong>. Radical en su sentido más literal y filosófico (que va a la raíz de las cosas, sin concesiones y con total vehemencia, combinada con una prudencia política aplicable cuando había que hacerlo) y revolucionaria (no antisistema, no contra un sistema sin definir, sino realizando una <strong>crítica total a la pluralidad de sistemas que conforman el Orden Establecido realmente existente</strong>).</p>\n<div>Sin embargo, la repercusión que la bitácora inicial tuvo ninguno de sus creadores pensó jamás que llegaría a ser la que fue. <strong>Más de 100.000 visitantes en menos de un año</strong>, llegando a superar ampliamente los <strong>200.000 en los siete meses siguientes</strong>, y superando ampliamente las <strong>300.000 en dos años</strong>. Demasiado para una bitácora de las características filosóficas, políticas y económico-políticas de IH: <strong>materialista</strong>, <strong>atea</strong> esencial total (católica), <strong>revolucionaria</strong>, <strong>socialista</strong>, <strong>marxista</strong>, <strong>iberoamericanista</strong> y <strong>españolista</strong>. Pero también <strong>antifascista</strong>, <strong>antirracista</strong>, <strong>antisecesionista</strong>, <strong>antineoliberal</strong>, <strong>anti-islamista</strong>, <strong>antiespiritualista</strong> y <strong>antidualista</strong>, negando las caducas distinciones izquierda-derecha en sentido burgués (algo que ya hizo Lenin), la distinción Oriente-Occidente, o la distinción capitalismo-socialismo (admitiendo que no hay un enfrentamiento socialista unificado frente al capitalismo, sino que <strong>hay varios modelos capitalistas y socialistas enfrentados mutuamente entre sí</strong> (capitalismo estadounidense frente a capitalismo de la Unión Europea, capitalismo japonés frente a socialismo chino, socialismo bolivariano frente a socialismo norcoreano, &amp;c.), y que <strong>hay modelos de socialismo muy variados, enfrentados incluso entre sí a muerte, por lo que la lucha contra otros modelos socialistas, inevitablemente, debía ser tanto o más radical que contra el capitalismo de mercado pletórico</strong>. Esto y otras cosas, colocaban a IH en una situación complicada ideológicamente: por un lado, <strong>la autodenominada «<em>izquierda</em>» no entendía como una izquierda revolucionaria podía defender la unidad de España y la Hispanidad o criticar el indigenismo</strong>; por otro, <strong>la (auto)denominada «<em>derecha</em>» no entendía cómo unos patriotas españoles podían ser de izquierdas, o cómo podían dar la razón a Hugo Chávez en su pretensión de unidad iberoamericana</strong>. Esa peculiaridad única fue la que nos hizo crecer como bitácora: tanto simpatizantes como enemigos y adversarios nos visitaban, y dejaban su comentarios. El paso obvio a seguir era tener <strong>dominio propio y convertirnos en página web más allá de la bitácora</strong>.</div>\n<div>La repercusión mediática siguió a buen ritmo (incluso el diario liberal <strong>El Mundo</strong> nos citó en su sección económica). Pero estaba claro que no podíamos conformarnos con eso. En el día de hoy, en que aparecemos como firma en <strong>el diario global de la izquierda revolucionaria en lengua española, El Revolucionario</strong> (algo que supone para nosotros tanto un honor como una responsabilidad), <strong>Izquierda Hispánica deja de ser un proyecto meramente web para convertirse en una activa asociación cuyos objetivos no han cambiado en absoluto desde sus orígenes</strong> (si bien nos adaptamos a las características concretas del momento que nos toca vivir). Los <strong>pilares fundamentales de Izquierda Hispánica</strong> son:</div>\n<div></div>\n<div><strong><em>a)</em> </strong>La <strong>adhesión y defensa del Materialismo Filosófico, el sistema filosófico creado por Gustavo Bueno, como la herramienta analítica más poderosa del presente a día de hoy</strong>, y la <strong>pretensión de extender su uso e influencia en las sociedades políticas de lengua española y portuguesa</strong> (y otras, por qué no). Gustavo Bueno es el nuevo Marx, y negarlo o ridiculizarlo supone, a nuestro juicio, una autolimitación por parte de cualquier persona en el camino a la revolución.</div>\n<div></div>\n<div><strong><em>b)</em> </strong>La <strong>defensa de la Hispanidad, entendida esta como el conjunto de personas que en el mundo hablan español y portugués</strong>. La defensa de la unidad e integridad territorial de todas y cada una de las naciones políticas que hablan estas lenguas (desde España hasta Bolivia, desde Brasil hasta Argentina, desde Timor Oriental hasta México), y la <strong>necesidad imperiosa de articular una unidad económica, institucional e, incluso, política, de toda la Hispanidad</strong>, en razón de convertirla en un epicentro mundial de la política, la economía y la cultura en todo el planeta, cuya influencia sea decisiva en el caminar del mundo.</div>\n<div></div>\n<div><strong><em>c)</em> </strong>La <strong>defensa, articulación y construcción de un modelo social, económico y político alternativo al capitalismo</strong> de mercado pletórico y Estado de bienestar del presente, al Islam y al socialismo chino. <strong>La Hispanidad debe proponer su propio modelo de socialismo específico</strong>, y <strong>ello sólo es posible</strong> (si quiere tener fuerza, por decirlo de alguna manera, imperial), <strong>si ese socialismo se construye partiendo de los conceptos, las premisas y las prudentes y fuertes ideas sostenidas desde el Materialismo Filosófico</strong>.</div>\n<div></div>\n<div>Nuestras metas son altas, y el camino es largo, difícil y lleno de obstáculos. Pero <strong>¿de qué sirve una organización revolucionaria si no tiene voluntad de poder?</strong> Siendo el Estado el pilar fundamental todavía hoy de toda acción política, <strong>sólo Izquierda Hispánica parece postularse como la única defensora, dentro del espectro de las izquierdas postsoviéticas, de la necesidad del control revolucionario del Estado, más allá del nihilismo hedonista que embarga a las izquierdas indefinidas del presente</strong>. El <strong>cambio cultural en el pueblo</strong>, que salga de su caverna y estime necesario el cambio político que nosotros defendemos, es necesario para acometer nuestros proyectos. Desde esta firma, que aparecerá semanalmente en El Revolucionario y en la <strong>página web oficial de Izquierda Hispánica</strong> (ya POR FIN REMODELADA), IH ofrecerá sus análisis de toda la realidad iberoamericana y mundial, siempre apoyándonos en nuestros <strong>irrenunciables tres pilares ideológicos arriba señalados</strong>. Por ello, iniciamos una nueva etapa que la historia dirá hasta dónde llega. De momento, <strong>la pasión por la revolución hispánica socialista sigue latiendo fuerte en nuestros corazones. Y nunca desaparecerá mientras vivamos nosotros y aquellos que nos sigan en nuestro camino</strong>. Les invitamos a unirse en <strong>nuestra lucha</strong>, que no es la única, pero sí <strong>la más sólida y diferenciada</strong>. Les saludamos afectuosamente y les invitamos a leer, compartir con otros, reflexionar y debatir nuestros textos.</div>\n<div></div>\n<div><strong>Salud, Revolución, Hispanidad y Socialismo</strong>.</div>\n<p>Si desea colaborar o ponerse en contacto con nosotros, mándenos un mensaje a la dirección: <strong>izquierdahispanica@yahoo.es</strong></p>\n<p>Si desea hacer cualquier aportación económica puede realizar un ingreso en la Cuenta Corriente de Ibercaja:</p>\n<p><strong>2085 9742 14 0330255656</strong>.</p>\n<p>Códigos de pago al extranjero:</p>\n<p><strong>IBAN ES88- CC</strong></p>\n<p>Código BIC (SWIFT) CAZRES2Z</p>\n<p>También puede contribuir con Izquierda Hispánica a través de PayPal siguiendo este botón:</p>\n<form class=\"aligncenter\" style=\"margin-top: 0; padding-top: 0; line-height: 0;\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\"><input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" /><input type=\"hidden\" name=\"encrypted\" value=\"-----BEGIN PKCS7-----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-----END PKCS7----- \" /><input type=\"image\" alt=\"PayPal. La forma rápida y segura de pagar en Internet.\" name=\"submit\" src=\"https://www.paypal.com/es_ES/ES/i/btn/btn_donate_LG.gif\" /><img loading=\"lazy\" alt=\"\" src=\"https://www.paypal.com/es_ES/i/scr/pixel.gif\" width=\"1\" height=\"1\" border=\"0\" /></form>\n<p>Muchas gracias.</p>\n"
+    },
+    "date": "2011-03-04T16:27:21",
+    "date_gmt": "2011-03-04T15:27:21",
+    "excerpt": {
+      "protected": false,
+      "rendered": "<p>Compilación de artículos sobre nuestra ideología Desde que, en el año 2006, nació Izquierda Hispánica (IH) como bitácora creada por cuatro estudiantes de la Facultad de Ciencias Políticas y Sociología de la Universidad Complutense de Madrid, España, la vocación de las webs asociadas a la marca IH siempre pudo calificarse con dos palabras: radical y [&hellip;]</p>\n"
+    },
+    "featured_media": 4610,
+    "guid": {
+      "rendered": "http://izquierdahispanica.org/?page_id=4606"
+    },
+    "id": 4606,
+    "link": "http://izquierdahispanica.org/archivepage/about/",
+    "menu_order": 0,
+    "meta": [],
+    "modified": "2013-03-19T16:33:45",
+    "modified_gmt": "2013-03-19T15:33:45",
+    "parent": 19,
+    "ping_status": "open",
+    "slug": "about",
+    "status": "publish",
+    "template": "",
+    "title": {
+      "rendered": "Versión antigua «¿Quiénes somos?» de marzo 2011 a marzo 2013"
+    },
+    "type": "page"
+  }
+]

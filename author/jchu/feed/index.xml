@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jchu &#8211; Izquierda Hispánica</title>
+	<atom:link href="/author/jchu/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Tue, 11 Mar 2014 12:22:48 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Discusión sobre la Educación española</title>
+		<link>/2011/discusion-educacion/</link>
+					<comments>/2011/discusion-educacion/#comments</comments>
+		
+		<dc:creator><![CDATA[jchu]]></dc:creator>
+		<pubDate>Thu, 20 Oct 2011 20:32:51 +0000</pubDate>
+				<category><![CDATA[Actividades]]></category>
+		<category><![CDATA[España]]></category>
+		<category><![CDATA[Educación]]></category>
+		<category><![CDATA[Encuentros]]></category>
+		<guid isPermaLink="false">/?p=1426</guid>
+
+					<description><![CDATA[En este artículo recopilo una conversación que se desarrollo a partir de que en esta página de IZQUIERDA HISPÁNICA se colgara el programa Zafarrancho que trató sobre la cuestión de la Educación. En tal conversación intervinieron cuatro personas: Juan Martínez Estéban, Esquinas, Peliyot y yo mismo: Hola: adjunto aquí abajo una respuesta que elaboré para [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2011/discusion-educacion/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Entorno a la educación y a la convivencia en los centros</title>
+		<link>/2011/educacion-y-convivencia/</link>
+					<comments>/2011/educacion-y-convivencia/#comments</comments>
+		
+		<dc:creator><![CDATA[jchu]]></dc:creator>
+		<pubDate>Wed, 16 Mar 2011 08:34:55 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Educación]]></category>
+		<guid isPermaLink="false">/?p=194</guid>
+
+					<description><![CDATA[Lo que piensa un profesor de secundaria. Éstas son unas primeras ideas que se ponen sobre la mesa, de cara a una posible discusión: Los valores más importantes a enseñar en los centros educativos no son los hoy día más mentados, pues la generosidad no es compartir, la solidaridadd no es ni la fraternidad ni [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2011/educacion-y-convivencia/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Música &#8211; Izquierda Hispánica</title>
+	<atom:link href="/tag/musica/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Wed, 13 Jun 2012 16:29:54 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Rock Hispano: «Latinoamérica», de Maná</title>
+		<link>/2012/rock-hispano-latinoamerica-de-mana/</link>
+					<comments>/2012/rock-hispano-latinoamerica-de-mana/#comments</comments>
+		
+		<dc:creator><![CDATA[Mijail Ilich]]></dc:creator>
+		<pubDate>Wed, 16 May 2012 20:18:49 +0000</pubDate>
+				<category><![CDATA[Naciones hispánicas]]></category>
+		<category><![CDATA[Hispanidad]]></category>
+		<category><![CDATA[Música]]></category>
+		<guid isPermaLink="false">/?p=3006</guid>
+
+					<description><![CDATA[Alerta, esto es un llamado. Es valiosa su atención. Están discriminando latinos. No me parece que tienen razón. Somos gente que nunca se raja ante cualquier situación. Vamos a mostrar quienes somos con coraje y valor. No vamos, no vamos a dejarnos, jamás. Latino tú, latino yo, la misma sangre y corazón. Eso es mi [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2012/rock-hispano-latinoamerica-de-mana/feed/</wfw:commentRss>
+			<slash:comments>17</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

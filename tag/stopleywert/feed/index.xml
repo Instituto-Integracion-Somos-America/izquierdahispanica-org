@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>StopLeyWert &#8211; Izquierda Hispánica</title>
+	<atom:link href="/tag/stopleywert/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Hacia la séptima generación de izquierda</description>
+	<lastBuildDate>Tue, 12 Mar 2013 14:02:12 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>Tres grandes mentiras de la Educación en España</title>
+		<link>/2013/mentiras-educacion-espana/</link>
+					<comments>/2013/mentiras-educacion-espana/#comments</comments>
+		
+		<dc:creator><![CDATA[Beatriz Vallina]]></dc:creator>
+		<pubDate>Fri, 18 Jan 2013 21:05:04 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Naciones hispánicas]]></category>
+		<category><![CDATA[Educación]]></category>
+		<category><![CDATA[Liberalismo]]></category>
+		<category><![CDATA[Marxismo]]></category>
+		<category><![CDATA[StopLeyWert]]></category>
+		<category><![CDATA[Unión Europea]]></category>
+		<guid isPermaLink="false">/?p=4389</guid>
+
+					<description><![CDATA[Al hilo del artículo publicado sobre la LOMCE y con el fin de esclarecer algunas líneas trazadas al público más profano y ajeno al ámbito y a la función docente, así como sus agentes relacionados (Facultades de Pedagogía, principalmente), recupero la temática del sistema educativo en España para tratar desde un enfoque divulgativo tres grandilocuentes adjetivos [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2013/mentiras-educacion-espana/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>La LOMCE y las disputas en torno al Sistema Educativo español</title>
+		<link>/2012/lomce-disputas-sistema-educativo-espanol/</link>
+					<comments>/2012/lomce-disputas-sistema-educativo-espanol/#comments</comments>
+		
+		<dc:creator><![CDATA[Beatriz Vallina]]></dc:creator>
+		<pubDate>Fri, 21 Dec 2012 09:06:06 +0000</pubDate>
+				<category><![CDATA[España]]></category>
+		<category><![CDATA[Naciones hispánicas]]></category>
+		<category><![CDATA[Educación]]></category>
+		<category><![CDATA[StopLeyWert]]></category>
+		<guid isPermaLink="false">/?p=4309</guid>
+
+					<description><![CDATA[Desde la aparición del nuevo borrador de la LOMCE (Ley Orgánica de Mejora de la Calidad Educativa) han sido muchos los análisis, algunos más sofisticados que otros, los que hemos venido leyendo en los más diversos medios de comunicación y, especialmente, en las movilizaciones &#8211;  de diverso fondo ideológico y nematológico &#8211; por parte de [&#8230;]]]></description>
+		
+					<wfw:commentRss>/2012/lomce-disputas-sistema-educativo-espanol/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
