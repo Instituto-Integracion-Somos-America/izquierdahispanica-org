@@ -1,0 +1,386 @@
+body {
+ background-color: #e7e7e7;
+ color: #FFF;
+ padding: 0; margin: 0; font: 0.7em Arial, sans-serif; line-height: 1.5em;
+}
+
+a {
+ color: #3366cc;
+ background: inherit;
+}
+
+a:hover {
+ color: #dd1133;
+ background: inherit;
+}
+
+h1 {
+ font: bold 2em Arial, Sans-Serif; letter-spacing: -1px;
+ padding: 16px 0 0 8px;
+ margin: 0;
+}
+
+h2 {
+ margin: 0;
+ padding: 0;
+ font: normal 1.6em Arial, Sans-Serif;
+ letter-spacing: -1px;
+}
+h1 a {
+ color: #46574D;
+ background: inherit;
+}
+h1 a, h2 a {
+ text-decoration: none;
+}
+h1 a:hover, h2 a:hover {
+ color: #3366cc;
+ background: inherit;
+}
+/*h3 {
+ font: 90% Arial, Sans-Serif; margin: 0 0 10px 0;
+ padding: 0;
+ color: #46574D;
+ background: #FFF;
+} */
+p {
+	margin: 0 0 3px 0;
+	line-height: 1.6em;
+}
+
+form {
+ margin: 0;
+}
+
+input.search {
+ width: 122px;
+ height: 15px;
+ border: 1px dashed #46574D;
+ background: #FFF url(./images/input.jpg) no-repeat;
+ padding: 3px;
+ color: #616161;
+}
+
+input.submit {
+ width: 28px;
+ height: 20px;
+ font-weight: bold;
+ border: none;
+ background: #FFF;
+ padding: 3px;
+ color: #616161;
+}
+
+.content {
+	background: #FFF;
+	padding: 0px;
+	width: 939px;
+	color: #000;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	
+}
+
+.preheader {
+	background: #000 url(./images/preheader.jpg) no-repeat center bottom;
+	color: #FFF;
+	width: 939px;
+	height: 71px;
+	margin: 0;
+	padding: 0;
+}
+
+.preheader a {
+ color: #000;
+ background: inherit;
+ text-decoration:none;
+ font-size: 0.8em;
+}
+
+.preheader a:hover {
+	color: #dd1133;
+	background: inherit;
+	font-size: 0.8em;
+}
+
+.preheader .padding {
+	float: right;
+	color: #FFF;
+	padding-top: 50px;
+	padding-right: 68px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.header {
+	background: #000 url(./images/header.jpg) no-repeat center bottom;
+	color: #FFF;
+	width: 939px;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+}
+
+.header .title, .header .title a {
+	float: left;
+	padding: 0px 0 0 84px;
+	color: #FFF;
+	font: bold 1.8em Arial, sans-serif;
+	text-decoration: none;
+}
+
+.header .slogan {
+	float: left;
+	clear: both;
+	color: #dd1133;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 65px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 272px;
+}
+
+
+
+.main_content {
+	background: #FFF url(./images/bg.jpg) repeat-y center bottom;
+	background-color: #FFF;
+	padding: 0px;
+	width: 939px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font: 1.2em Arial, sans-serif; 
+	line-height: 1.5em; 
+}
+
+
+.sd_left {
+
+    background-color: #FFF;
+	color: #000;
+	margin: 0 0 0px 80px;
+	padding: 0px 20px 0px 5px;
+	width: 500px;
+}
+
+textarea {
+	width: 100%;
+}
+
+
+.sd_right {
+    clear:both;
+    background-color: #FFF;
+	float: right;
+	color: #000;
+	margin: 0 90px 0 0;
+	padding: 0px 0px 0 15px;
+	width: 170px;
+	border-left: 1px dashed #ccc;
+}	
+
+/* For IE... */
+* html .sd_right {
+    clear:both;
+    background-color: #FFF;
+	float: right;
+	color: #000;
+	margin: 0 40px 0 0;
+	padding: 0px 0px 0 15px;
+	width: 170px;
+	border-left: 1px dashed #ccc;
+}	
+
+
+.text_padding {
+	padding-top: 12px;
+	padding-right: 86px;
+	padding-bottom: 5px;
+	padding-left: 86px;
+}
+
+.text_padding a {
+	text-decoration: none;
+}
+
+.text_padding a:hover {
+	text-decoration: underline;
+}
+
+.main_content h2 {
+	background-color: #FFF;
+	padding: 5px 0 5px 0;
+	color: #46574D;
+	font: bold 1.6em Arial, sans-serif;
+}
+
+
+.date { 
+	color: #46574D; 
+	background: #FFFFFF;
+	text-align: right; 
+	margin: 10px 0 5px 0; 
+	padding: 0.4em 0 0 0; 
+	border-top: 1px solid #eee;
+}
+
+input.button { 
+	background: #FFFFF4; 
+	color: #808080;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments { 
+	padding: 10px 10px 8px 10px; 
+	margin: 0 0 7px 0; 
+	background: #f8f8f8; 
+	color: #000;
+}
+
+.commentsbox { 
+	padding: 8px 0 10px 10px; 
+	margin: 0 0 10px 0; 
+	background: #f4f4f4; 
+	color: #000;
+}
+
+.error {
+	color: #990000;
+	background-color: #FFF0F0;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px dashed #990000;
+}
+.error h2 {
+	color: #990000;
+	background: inherit;
+}
+
+.success {
+	color: #000000;
+	background: #F5FBE1;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px dashed #7BA813;
+}
+.success h2 {
+	color: #7BA813;
+	background: inherit;
+}
+
+.footer {
+	background: #000 url(./images/footer.jpg) center no-repeat;
+	width: 939px;
+	height: 78px;
+	color:#555;
+	font-size:0.8em;
+	text-align:center;
+	clear:both;
+}
+
+.footer .padding {
+	padding: 40px 0 0 0;
+}
+
+
+
+#nav ul , #nav ul ul {padding:0; margin:0; list-style-type: none; background-color:#aaaaaa;border: 0px} /*  color del 2do nivel */
+#nav ul ul a{width:150px; border: 1px solid #bbbbbb; border-bottom:1px solid #999} /*  tamaño del 2do nivel */
+
+#nav ul {position:relative; z-index:500;}
+#nav ul li {float:left; position:relative;}
+#nav ul a, #nav ul  a:visited {  /*  Botones del menu cuando estan tranquilitos */
+	display:block; 
+	text-decoration:none; 
+	text-indent:5px;  
+	float:left;
+ 	color:#fff;
+ 	padding: 5px 10px 5px 10px;
+ 	background: none;
+ 	font-weight: bold;
+	text-align:center;
+ 
+	}
+#nav ul li:hover > a{background-color:#dd1133; } /*  color del 1er nivel */
+
+#nav ul li ul {display: none;}
+#nav ul li:hover > ul {display:block; position:absolute; top:0; left:120px;}
+#nav ul > li:hover > ul {left:0; top:27px;} /* espacio entre botones 2do nivel */
+#nav ul ul > li:hover > ul {left:170px; top:0px;} /* espacio entre botones 3er nivel y tamaño, left debe ser 20px mas que el tamaño del 2do nivel */
+
+
+
+#nav {
+	background: #000 url(./images/menu.jpg) no-repeat center bottom;
+	background-color: #000;
+	width: 939px;
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+#nav ul {
+ margin:0;
+ list-style:none;
+ padding: 0px 0 0 76px;
+}
+
+#nav a, #nav strong, #nav span {
+ float:left;
+ display:block;
+ color:#fff;
+ padding: 5px 10px 5px 10px;
+ background: none;
+ text-decoration:none;
+ font-weight: bold;
+ 
+}
+
+#nav a {
+ float:none;
+
+}
+
+#nav li {
+ float:left;
+ color: #FFF;
+ background: none;
+ margin:0;
+ padding:0 0 0 0px;
+}
+
+#nav #selected {
+ float:left;
+ background: #f0cc00;
+ color: #FFF;
+}
+
+#nav a.selected {
+ float:left;
+ background: #f0cc00;
+ padding:5px 10px 5px 10px;
+ color:#FFF;
+}
+
+#nav a:hover {
+ float:left;
+ color:#FFF;
+ background: #dd1133;
+}  
+
+#nav .padding {
+ padding: 5px 0 0 10px;
+ font-weight: bold;
+}

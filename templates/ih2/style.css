@@ -1,0 +1,692 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+ background-color: #e7e7e7;
+ color: #FFF;
+ padding: 0; margin: 0; font: 0.7em Arial, sans-serif; line-height: 1.5em;
+}
+
+/*  estilo de la lista de noticias colapsadas */
+
+
+.sd_left div #LNEnews table tbody tr td {
+	
+
+	padding: 0;
+	font-size: 10px;
+	line-height: 10px;
+	vertical-align: middle; 
+	padding-top: 6px ;
+	min-width: 100px
+	
+}
+	
+.sd_left div #LNEnews table  {
+	
+	margin: 0 -20px 0 0;
+
+}
+	
+.sd_left div #LNEnews table tbody tr td a{
+	
+	font-weight: bold;
+
+	
+}
+	
+
+
+.sd_left div #LNEnews table tbody tr td a {
+
+	display: list-item;
+	list-style-type: square;
+	margin-left: 12px;
+}
+
+
+
+
+/*  estilo del formulario para comentar  */
+
+
+		
+#LNEnews form fieldset {
+	padding: 12px;
+	line-height:8pt;
+
+
+}
+
+#LNEnews form fieldset b{ 
+	font-size:8pt;
+
+
+}
+
+#LNEnews  {
+
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+
+
+.LNEnews_text, .LNEnews_title {
+	
+
+	line-height: 1.5em;
+
+}
+.LNEnews_title {
+	
+ 	padding: 0.5em 0 0 0 !important;
+	letter-spacing: -1px;
+
+}
+
+.LNEnews_text p {
+ margin: 0;
+}
+
+.LNEnews_title {
+	 font: bold 1.8em Arial, Sans-Serif !important; 
+	 clear: left;
+	 letter-spacing: -0.4pt;
+	 padding-top: 1.8em;
+	 
+
+	
+	}
+	
+.LNEnews_author, .LNEnews_email {
+	display: block;
+	font-style: italic;
+	text-align: right !important;
+	color:  #aaa; 
+	letter-spacing: 1px;
+}
+
+.LNEnews_text, .LNEnews_title {
+	display: block;
+	margin: 0 -32px 0 -32px;
+	padding: 0;
+}
+
+
+.noborder {
+	border: 0 !important;
+	background-color: #f0f0f0 ;
+
+	
+	}
+
+
+
+
+
+
+
+
+a {
+ color: #3366cc;
+ background: inherit;
+ outline:0;
+}
+
+a:hover {
+ color: #dd1133;
+ background: inherit;
+}
+
+
+
+h1  {
+ font: bold 2em Arial, Sans-Serif; 
+ letter-spacing: -1px;
+
+ margin: 0;
+}
+
+
+h1 a {
+ color: #46574D;
+ background: inherit;
+}
+h1 a, h2 a {
+ text-decoration: none;
+}
+h1 a:hover, h2 a:hover {
+ color: #3366cc;
+ background: inherit;
+}
+
+h2 {
+ margin: 0;
+ padding: 0;
+ font: normal 1.6em Arial, Sans-Serif;
+ letter-spacing: -1px;
+}
+
+h4 {
+font: bold 1.2em Arial, Sans-Serif; 	
+	
+}
+
+h3 {
+ 
+ padding: 0 0 1em 0;
+ color: #f0cc00
+} 
+
+p {
+	margin: 0 0 3px 0;
+	line-height: 1.6em;
+}
+
+form {
+ margin: 0;
+}
+
+input.search {
+	width: 100px;
+	height: 15px;
+	border: 1px solid #46574D;
+	background: #FFF url(./images/input.jpg) no-repeat;
+	padding: 3px;
+	color: #616161;
+}
+
+input.submit {
+	width: 100px;
+	height: 20px;
+	font-weight: bold;
+	background: #FFF;
+	padding: 3px;
+	color: #616161;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	text-align: right;
+	float: none;
+}
+
+.content {
+	background: #FFF url(./images/bg.gif) repeat-y center bottom;
+	padding: 0px;
+	width: 939px;
+	color: #000;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	
+}
+
+.preheader {
+	background: #000 url(./images/preheader.gif) no-repeat center bottom;
+	color: #FFF;
+	width: 939px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+.preheader a {
+ color: #000;
+ background: inherit;
+ text-decoration:none;
+ font-size: 0.8em;
+}
+
+.preheader a:hover {
+	color: #dd1133;
+	background: inherit;
+	font-size: 0.8em;
+}
+
+.preheader .padding {
+	float: right;
+	color: #FFF;
+	padding-top: 19px;
+	padding-right: 200px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.header {
+	background: #000 url(./images/header.jpg) no-repeat center bottom;
+	color: #FFF;
+	width: 939px;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+}
+
+.header .title, .header .title a {
+	float: left;
+	padding: 0px 0 0 84px;
+	color: #FFF;
+	font: bold 1.8em Arial, sans-serif;
+	text-decoration: none;
+}
+
+.header .slogan {
+	float: left;
+	clear: both;
+	color: #dd1133;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 65px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 272px;
+}
+
+
+
+.main_content {
+	background: #FFF url(./images/bg.gif) repeat-y center bottom;
+	background-color: #FFF;
+	padding: 0px;
+	width: 939px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	line-height: 1.5em;
+	font-family: Arial, sans-serif;
+	font-size: small;
+}
+
+
+.sd_left {
+		clear:both;
+		float: left;
+		background-color: #FFF;
+	color: #000;
+	width: 640px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 80px;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+textarea {
+	width: 100%;
+}
+
+
+.sd_right {
+
+	background-color: #FFF;
+	float: right;
+	color: #000;
+	width: 125px;
+	margin-top: 0;
+	margin-right: 64px;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 0px;
+	padding-right: 12px;
+	padding-bottom: 0;
+	padding-left: 5px;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-top-style: none;
+	border-right-style: none;
+}	
+
+.sd_left .text_padding ul {
+
+	padding-left: 4em;
+
+}
+
+.sd_left div.text_padding p {
+
+	text-align: justify;
+	padding-bottom: 1em;
+
+}
+
+/* For IE... */
+* html .sd_right {
+    clear:both;
+    background-color: #FFF;
+	float: right;
+	color: #000;
+	margin: 0 40px 0 0;
+	padding: 0px 0px 0 15px;
+	width: 170px;
+	border-left: 1px dashed #ccc;
+}	
+
+
+.text_padding {
+	padding: 5px;
+}
+
+.text_padding a {
+	text-decoration: none;
+}
+
+.text_padding a:hover {
+	text-decoration: underline;
+}
+
+.main_content h2 {
+	background-color: #FFF;
+	padding: 5px 0 5px 0;
+	color: #46574D;
+	font: bold 1.6em Arial, sans-serif;
+}
+
+
+.date { 
+	color: #46574D; 
+	background: #FFFFFF;
+	text-align: right; 
+	margin: 10px 0 5px 0; 
+	padding: 0.4em 0 0 0; 
+	border-top: 1px solid #eee;
+}
+
+input.button { 
+	background: #FFFFF4; 
+	color: #808080;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments { 
+	padding: 10px 10px 8px 10px; 
+	margin: 0 0 7px 0; 
+	background: #f8f8f8; 
+	color: #000;
+}
+
+.commentsbox { 
+	padding: 8px 0 10px 10px; 
+	margin: 0 0 10px 0; 
+	background: #f4f4f4; 
+	color: #000;
+}
+
+.error {
+	color: #990000;
+	background-color: #FFF0F0;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px dashed #990000;
+}
+.error h2 {
+	color: #990000;
+	background: inherit;
+}
+
+.success {
+	color: #000000;
+	background: #F5FBE1;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px dashed #7BA813;
+}
+.success h2 {
+	color: #7BA813;
+	background: inherit;
+}
+
+.footer {
+	background: #000 url(./images/footer.gif) center no-repeat;
+	width: 939px;
+	height: 78px;
+	color:#555;
+	font-size:0.8em;
+	text-align:center;
+	clear:both;
+}
+
+.footer .padding {
+	padding: 40px 0 0 0;
+}
+
+
+hr {
+	
+	color: #f0cc00 ;
+	border: 0 #f0cc00 ;
+	background-color: #f0cc00!important;
+	height: 1px;
+	
+	}
+
+
+#nav ul , #nav ul ul {padding:0; margin:0; list-style-type: none; background-color:#aaaaaa;border: 0px} /*  color del 2do nivel */
+#nav ul ul a{width:150px; border: 1px solid #bbbbbb; border-bottom:1px solid #999} /*  tamaño del 2do nivel */
+
+#nav ul {position:relative; z-index:500;}
+#nav ul li {float:left; position:relative;}
+#nav ul a, #nav ul  a:visited {  /*  Botones del menu cuando estan tranquilitos */
+	display: block; 
+	text-decoration:none; 
+	text-indent:5px;  
+	float:left;
+ 	color:#fff;
+ 	padding: 5px 10px 5px 10px;
+ 	background: none;
+ 	font-weight: bold;
+	text-align:center;
+ 
+	}
+#nav ul li:hover > a{background-color:#dd1133; } /*  color del 1er nivel */
+
+#nav ul li ul {display: none;}
+#nav ul li:hover > ul {display:block; position:absolute; top:0; left:120px;}
+#nav ul > li:hover > ul {left:0; top:27px;} /* espacio entre botones 2do nivel */
+#nav ul ul > li:hover > ul {left:170px; top:0px;} /* espacio entre botones 3er nivel y tamaño, left debe ser 20px mas que el tamaño del 2do nivel */
+
+
+
+#nav {
+	background: #000 url(./images/menu.gif) no-repeat center bottom;
+	background-color: #000;
+	width: 939px;
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+#nav ul {
+ margin:0;
+ list-style:none;
+ padding: 0px 0 0 76px;
+}
+
+#nav a, #nav strong, #nav span {
+ float: left;
+ display: block;
+ color: #fff;
+ padding: 5px 10px 5px 10px;
+ background: none;
+ text-decoration:none;
+ font-weight: bold;
+ 
+}
+
+#nav a {
+ float:none;
+
+}
+
+#nav li {
+ float: left;
+ color: #FFF;
+ background: none;
+ margin: 0;
+ padding: 0 0 0 0px;
+}
+
+#nav #selected {
+ float:left;
+ background: #f0cc00;
+ color: #FFF;
+}
+
+#nav a.selected {
+ float:left;
+ background: #f0cc00;
+ padding:5px 10px 5px 10px;
+ color:#FFF;
+}
+
+#nav a:hover {
+ float:left;
+ color:#FFF;
+ background: #dd1133;
+}  
+
+#nav .padding {
+ padding: 5px 0 0 10px;
+ font-weight: bold;
+}
+
+
+
+
+
+.contenedor_img_izquierda {
+	margin: 12px 12px 12px 0px; 
+	float: left;	
+	}
+.contenedor_img_izquierda a, .contenedor_img_izquierda img {
+	position: relative;
+	float: left;
+	}
+	
+.contenedor_img_izquierda a img {
+	border: 0;
+	}
+	
+.contenedor_img_izquierda div {
+	float: left;
+	clear: both;
+	text-align: left; 
+	width: 200px;
+	line-height: 1em;
+	font-size: smaller;
+	font-family: Verdana;
+	/* position: relative; */
+	}
+
+
+.contenedor_img_derecha {
+	margin: 12px 0 12px 12px; 
+	float: right;
+	text-align: center; 
+	}
+
+	
+.contenedor_img_derecha a img {
+	border: 0;
+	}
+
+.contenedor_img_derecha div {
+	clear: right;
+	text-align: center; 
+	width: 200px;
+	line-height: 1em;
+	font-size: smaller;
+	font-family: Verdana;
+	}
+
+
+/*  estilo lista colapsada a la derecha en extras */
+
+
+
+.sd_right div #LNEnews div {
+	visibility: visible;
+	padding: 0;
+	font-size: 9px;
+	line-height: 9px;
+	color: grey;
+	}
+
+.sd_right div #LNEnews img {
+	display: none;
+	}
+
+.sd_right div #LNEnews  {
+	visibility: hidden;
+	}
+	
+.sd_right div #LNEnews table  {
+	table-layout:fixed;
+	margin: 0;
+	border: 0;
+	border-collapse:collapse;
+	empty-cells:hide;
+
+}
+	
+
+.sd_right div #LNEnews table tbody tr td {
+	
+
+	padding: 0;
+	font-size: 9px;
+	line-height: 10px;
+	vertical-align: top; 
+
+	visibility:hidden !important;
+	background-color: transparent;
+    position: relative;
+
+
+	
+}
+	
+
+.sd_right div #LNEnews table tbody tr td a{
+	display: block;
+	width: 125px;
+	margin-right: 200px;
+
+	visibility: visible !important;
+
+	
+}
+	
+
+
+
+
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/dd_valid.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
