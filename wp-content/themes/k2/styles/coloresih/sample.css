@@ -1,22 +1,22 @@
 /*
-	CSS files kept in the 'styles' directory can be used to
-	customize your K2 installation without having to mess
-	with the core K2 files. This in turn makes it easier to
-	upgrade to new K2 version as well as debug any problems
-	that might occur.
+CSS files kept in the 'styles' directory can be used to
+customize your K2 installation without having to mess
+with the core K2 files. This in turn makes it easier to
+upgrade to new K2 version as well as debug any problems
+that might occur.
 
-	You select styles from the K2 Options page in the
-	'Appearance' section of your WordPress administration.
+You select styles from the K2 Options page in the
+'Appearance' section of your WordPress administration.
 
-	For more information on how to use custom styles:
-		http://code.google.com/p/kaytwo/wiki/K2CSSandCustomCSS
-	
-	Author Name	: Enrique
-	Author Site	: http://enriqueesquinas.com
-	Style Name	:
-	Style URI	:
-	Version		:
-	Comments	:
+For more information on how to use custom styles:
+http://code.google.com/p/kaytwo/wiki/K2CSSandCustomCSS
+
+Author Name  : Enrique
+Author Site  : http://enriqueesquinas.com
+Style Name  :
+Style URI  :
+Version    :
+Comments  :
 */
 
 
@@ -24,115 +24,95 @@
 
 body {
 
-	color: #444;
-	background-color: #bfafac;
-	background-repeat: no-repeat;
-	background-position: center bottom; 
-	background-attachment: fixed;
+  color: #444;
+  background-color: #bfafac;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
 
-	background-size: 100% 740px, auto;
+  background-size: 100% 740px, auto;
 
-	-o-background-size: 100% 740px, auto;
-	-moz-background-size: 100% 740px, auto;
-	-webkit-background-size: 100% 740px, auto;
-
-
-	}
+  -o-background-size: 100% 740px, auto;
+  -moz-background-size: 100% 740px, auto;
+  -webkit-background-size: 100% 740px, auto;
+}
 
 html:not([dummy]) body {
-	background-image:  url('/wp-content/themes/k2/styles/coloresih/fondoih3.jpg');
-
-	}
-
+  background-image:  url('/wp-content/themes/k2/styles/coloresih/fondoih3.jpg');
+}
 
 
 
 
 #page {
-	/* The entire design is contained within the 'page' id */
+  /* The entire design is contained within the 'page' id */
 
-	// Color de fondo de la pagina principal
-	background-color: white;
+  // Color de fondo de la pagina principal
+  background-color: white;
+}
 
-
-	
-	}
-	
 #header {
-	/* Contains the H1 and menu */
-	background-color: #913;
-	height: 120px; 
-	background-position: top left;
-	
-	}
-	
-#primary {
-	/* Contains the main column */
+  /* Contains the H1 and menu */
+  background-color: #913;
+  height: 120px;
+  background-position: top left;
+}
 
-	}
+#primary {
+  /* Contains the main column */
+}
 
 .hentry {
-	/* Each entry is contained within the 'hentry' class */
-	
-
-	}
+  /* Each entry is contained within the 'hentry' class */
+}
 
 .page-head {
-
-	color: #bfafac;
-	}
+  color: #bfafac;
+}
 
 .entry-content {
-	/* The meat and potatoes of every entry */
+  /* The meat and potatoes of every entry */
 
-	// Color del texto de las entradas
-	color: black;
-	}
+  // Color del texto de las entradas
+  color: black;
+}
 
 #sidebar-1 {
-	/* The first sidebar */
-	}
+  /* The first sidebar */
+}
 
 #sidebar-2 {
-	/* The second sidebar */
-	}
+  /* The second sidebar */
+}
 
 .secondary {
-	/* Contains both sidebars */
-	}
+  /* Contains both sidebars */
+}
 
 
 a, h3 a, h4 a, .entry-title a {
-  /* Color de los enlaces de los titulos  */	
-	color: #00678A ;
-
-
-	}
+  /* Color de los enlaces de los titulos  */
+  color: #00678A ;
+}
 
 
 a:visited, h3 a:visited, h4 a:visited, .entry-title a:visited {
-  /* Color de los enlaces visitados */	
-	color: #E6CC7E ;
-
-
-	}
+  /* Color de los enlaces visitados */
+  color: #E6CC7E ;
+}
 
 
 a:hover, h3 a:hover, h4 a:hover, .entry-title a:hover {
-  /* Color de los enlaces cuando el raton esta encima */	
-	color: #991133 ;
-
-
-	}
+  /* Color de los enlaces cuando el raton esta encima */
+  color: #991133 ;
+}
 
 
 
 .enlaces-etiquetas {
-
-
-	font-size: 1.2em;
-	font-weight: bold;
-	}
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
 
 
@@ -140,16 +120,14 @@ a:hover, h3 a:hover, h4 a:hover, .entry-title a:hover {
 
 
 .entry-content dl dt {
-
-	font-weight: bold;
-	margin-top: 1.2em;
-
-	}
+  font-weight: bold;
+  margin-top: 1.2em;
+}
 
 .entry-content dl dd {
-	padding-left: 3em;
-	margin-top: 0.8em;
-	}
+  padding-left: 3em;
+  margin-top: 0.8em;
+}
 
 
 
@@ -160,41 +138,41 @@ a:hover, h3 a:hover, h4 a:hover, .entry-title a:hover {
 /* Main Menu in Header  MENU DROPDOWN?  */
 
 ul.menu {
-	position: absolute; 
-	white-space: nowrap;
-	bottom: 0; 
-	margin: 0 20px;
-	}
+  position: absolute;
+  white-space: nowrap;
+  bottom: 0;
+  margin: 0 20px;
+}
 
 ul.menu,
 ul.menu li {
-	float: left;
-	clear: right;
-	list-style: none;
-	}
+  float: left;
+  clear: right;
+  list-style: none;
+}
 
 ul.menu li {
-	margin-right: 4px;
-	}
+  margin-right: 4px;
+}
 
 ul.menu li a {
-	display: block;
-	padding: 5px 15px;
-	font-size: 1em;
-	color: white;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	-moz-border-radius-topleft: 4px;
-	-moz-border-radius-topright: 4px;
-	-webkit-border-top-left-radius: 4px;
-	-webkit-border-top-right-radius: 4px;
-	}
+  display: block;
+  padding: 5px 15px;
+  font-size: 1em;
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+}
 
 ul.menu li a:hover {
-	background: #00678A;
-	color: white;
-	text-decoration: none;
-	}
+  background: #00678A;
+  color: white;
+  text-decoration: none;
+}
 
 ul.menu li.current-cat a,
 ul.menu li.current-cat-parent a,
@@ -206,63 +184,52 @@ ul.menu li.current_page_ancestor a,
 ul.menu li.current_page_ancestor a:hover,
 body.single ul.menu li.blogtab a,
 body.single ul.menu li.blogtab a:hover {
-	color: black;
-	background-color: white;
-	text-decoration: none;
-	}
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
 
 
 ul.menu li.current-cat a:hover,
 ul.menu li.current-cat ul li a:hover{
-
-	color: white;	
-	background-color: #00678A;
-
-	}
+  color: white;
+  background-color: #00678A;
+}
 
 
 ul.menu li.current-cat ul li a:hover {
 
-	background-color: #991133;
-	}
+  background-color: #991133;
+}
 
 ul.menu li.current-cat-parent a {
-		
-	background-color: rgba( 255, 255, 255, 0.5);
-	color: rgba( 0, 0, 0, 0.5);
 
-	}
+  background-color: rgba( 255, 255, 255, 0.5);
+  color: rgba( 0, 0, 0, 0.5);
+
+}
 
 ul.menu li.current-cat-parent a:hover {
-
-	background-color:  #00678A;
-	color: white;
-
-	}
+  background-color:  #00678A;
+  color: white;
+}
 
 
 ul.menu li.current-cat-parent ul li {
-		
-	background-color: #bfafac !important;
-	
-
-	}
+  background-color: #bfafac !important;
+}
 
 ul.menu li ul li.current-cat a,
 ul.menu li.current-cat ul li a {
-
-	color: white;
-	background-color: #bfafac;
-
-	}
+  color: white;
+  background-color: #bfafac;
+}
 
 
 
 ul.menu li ul li.current-cat a {
-
-	font-weight: bold;
-
-	}
+  font-weight: bold;
+}
 
 
 
@@ -271,89 +238,76 @@ ul.menu li ul li.current-cat a {
 
 
 ul.menu > li.has_children:hover > a:after,
-ul.menu > li.has_children > a:after {  
-
-	/* content: ' \21D3'; */
-	
-	}
+ul.menu > li.has_children > a:after {
+  /* content: ' \21D3'; */
+}
 
 
 
 ul.menu li ul {
-	/*  	MENU HIJO 	*/
-	display: none;
-	background-color: none;
-
-	}
+  /*    MENU HIJO   */
+  display: none;
+  background-color: none;
+}
 
 ul.menu li ul a {
-	/*  	ENLACE MENU HIJO 	*/
-	width: 12em;
-	background-color: #bfafac;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-       -moz-border-radius-topleft: 0;
-       -moz-border-radius-topright: 0;
-       -webkit-border-top-left-radius: 0;
-       -webkit-border-top-right-radius: 0;
-	}
+  /*    ENLACE MENU HIJO   */
+  width: 12em;
+  background-color: #bfafac;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+}
 
 
 
 
 ul.menu li:hover ul {
-
-	display: block;
-	position: fixed; 
-	left: inherit;
-
-
-	}
+  display: block;
+  position: fixed;
+  left: inherit;
+}
 
 
 
 
 
 .children {
+  position: fixed;
+  top: inherit;
+  left: inherit;
+  z-index: 2000;
 
-	position: fixed;
-	top: inherit;
-	left: inherit;
-	z-index: 2000;
-
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-       -moz-border-radius-topleft: 0;
-       -moz-border-radius-topright: 0;
-       -webkit-border-top-left-radius: 0;
-       -webkit-border-top-right-radius: 0;
-
-	}
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+}
 
 ul.children li {
-
-	float: none !important;
-
-	}
+  float: none !important;
+}
 
 ul.children li a:hover {
-
-	background-color: #991133 !important;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-       -moz-border-radius-topleft: 0;
-       -moz-border-radius-topright: 0;
-       -webkit-border-top-left-radius: 0;
-       -webkit-border-top-right-radius: 0;
-
-
-	}
+  background-color: #991133 !important;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+}
 
 
 .entry-content a:visited {
-	color: #E6CC7E;
-	}
+  color: #E6CC7E;
+}
 
 .entry-content a:hover {
-	color: #991133;
-	}
+  color: #991133;
+}
