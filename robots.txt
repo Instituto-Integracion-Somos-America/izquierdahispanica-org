@@ -1,0 +1,20 @@
+﻿User-agent: *
+Allow: /
+Allow: /images/
+Disallow: /css/
+Disallow: /comments/
+Disallow: /fckeditor/
+Disallow: /feed/
+Disallow: /js/
+Disallow: /languages/
+Disallow: /plugins/
+Disallow: /page/
+Disallow: /thumbs/
+Disallow: /templates/
+Disallow: /LightNEasy/
+Disallow: /pruebas/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+
+Sitemap: https://izquierdahispanica.org/sitemap.txt
